@@ -261,6 +261,30 @@ Team.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\football_manager.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\football_manager.dir\Team.cpp.s
 .PHONY : Team.cpp.s
 
+Tournament.obj: Tournament.cpp.obj
+.PHONY : Tournament.obj
+
+# target to build an object file
+Tournament.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\football_manager.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\football_manager.dir\Tournament.cpp.obj
+.PHONY : Tournament.cpp.obj
+
+Tournament.i: Tournament.cpp.i
+.PHONY : Tournament.i
+
+# target to preprocess a source file
+Tournament.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\football_manager.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\football_manager.dir\Tournament.cpp.i
+.PHONY : Tournament.cpp.i
+
+Tournament.s: Tournament.cpp.s
+.PHONY : Tournament.s
+
+# target to generate assembly for a file
+Tournament.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\football_manager.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\football_manager.dir\Tournament.cpp.s
+.PHONY : Tournament.cpp.s
+
 Training.obj: Training.cpp.obj
 .PHONY : Training.obj
 
@@ -381,6 +405,9 @@ help:
 	@echo ... Team.obj
 	@echo ... Team.i
 	@echo ... Team.s
+	@echo ... Tournament.obj
+	@echo ... Tournament.i
+	@echo ... Tournament.s
 	@echo ... Training.obj
 	@echo ... Training.i
 	@echo ... Training.s

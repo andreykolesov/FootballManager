@@ -271,6 +271,12 @@
 			null
 		],
 		[
+			"D:/qt projects/football_manager/Tournament.h",
+			"MU",
+			"EWIEGA46WW/moc_Tournament.cpp",
+			null
+		],
+		[
 			"D:/qt projects/football_manager/Training.h",
 			"MU",
 			"EWIEGA46WW/moc_Training.cpp",
@@ -356,6 +362,7 @@
 		[ "D:/qt projects/football_manager/Match.cpp", "MU", null ],
 		[ "D:/qt projects/football_manager/Player.cpp", "MU", null ],
 		[ "D:/qt projects/football_manager/Team.cpp", "MU", null ],
+		[ "D:/qt projects/football_manager/Tournament.cpp", "MU", null ],
 		[ "D:/qt projects/football_manager/Training.cpp", "MU", null ],
 		[ "D:/qt projects/football_manager/main.cpp", "MU", null ],
 		[ "D:/qt projects/football_manager/mainwindow.cpp", "MU", null ]

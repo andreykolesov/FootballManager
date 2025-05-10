@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/qt projects/football_manager/Match.cpp" "CMakeFiles/football_manager.dir/Match.cpp.obj" "gcc" "CMakeFiles/football_manager.dir/Match.cpp.obj.d"
   "D:/qt projects/football_manager/Player.cpp" "CMakeFiles/football_manager.dir/Player.cpp.obj" "gcc" "CMakeFiles/football_manager.dir/Player.cpp.obj.d"
   "D:/qt projects/football_manager/Team.cpp" "CMakeFiles/football_manager.dir/Team.cpp.obj" "gcc" "CMakeFiles/football_manager.dir/Team.cpp.obj.d"
+  "D:/qt projects/football_manager/Tournament.cpp" "CMakeFiles/football_manager.dir/Tournament.cpp.obj" "gcc" "CMakeFiles/football_manager.dir/Tournament.cpp.obj.d"
   "D:/qt projects/football_manager/Training.cpp" "CMakeFiles/football_manager.dir/Training.cpp.obj" "gcc" "CMakeFiles/football_manager.dir/Training.cpp.obj.d"
   "D:/qt projects/football_manager/build/mingw64-Debug/football_manager_autogen/mocs_compilation.cpp" "CMakeFiles/football_manager.dir/football_manager_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/football_manager.dir/football_manager_autogen/mocs_compilation.cpp.obj.d"
   "D:/qt projects/football_manager/main.cpp" "CMakeFiles/football_manager.dir/main.cpp.obj" "gcc" "CMakeFiles/football_manager.dir/main.cpp.obj.d"
