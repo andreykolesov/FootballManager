@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-da7c9c1b13ec14cc1d27.json",
+					"jsonFile" : "directory-.-Debug-6496a914f2392702925a.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "football_manager::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-football_manager-Debug-b05472774a37779ff628.json",
+					"jsonFile" : "target-football_manager-Debug-3dc4a5a0f09e87d957c8.json",
 					"name" : "football_manager",
 					"projectIndex" : 0
 				},

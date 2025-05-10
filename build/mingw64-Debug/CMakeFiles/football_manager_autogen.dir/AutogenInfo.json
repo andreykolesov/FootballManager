@@ -253,6 +253,12 @@
 	"HEADERS" : 
 	[
 		[
+			"D:/qt projects/football_manager/Match.h",
+			"MU",
+			"EWIEGA46WW/moc_Match.cpp",
+			null
+		],
+		[
 			"D:/qt projects/football_manager/Player.h",
 			"MU",
 			"EWIEGA46WW/moc_Player.cpp",
@@ -341,6 +347,7 @@
 	"SETTINGS_FILE" : "D:/qt projects/football_manager/build/mingw64-Debug/CMakeFiles/football_manager_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "D:/qt projects/football_manager/Match.cpp", "MU", null ],
 		[ "D:/qt projects/football_manager/Player.cpp", "MU", null ],
 		[ "D:/qt projects/football_manager/Team.cpp", "MU", null ],
 		[ "D:/qt projects/football_manager/main.cpp", "MU", null ],
