@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/football_manager.dir/Player.cpp.obj"
   "CMakeFiles/football_manager.dir/Player.cpp.obj.d"
+  "CMakeFiles/football_manager.dir/Team.cpp.obj"
+  "CMakeFiles/football_manager.dir/Team.cpp.obj.d"
   "CMakeFiles/football_manager.dir/football_manager_autogen/mocs_compilation.cpp.obj"
   "CMakeFiles/football_manager.dir/football_manager_autogen/mocs_compilation.cpp.obj.d"
   "CMakeFiles/football_manager.dir/main.cpp.obj"

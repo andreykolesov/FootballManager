@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "football_manager_autogen/timestamp" "custom" "football_manager_autogen/deps"
   "D:/qt projects/football_manager/Player.cpp" "CMakeFiles/football_manager.dir/Player.cpp.obj" "gcc" "CMakeFiles/football_manager.dir/Player.cpp.obj.d"
+  "D:/qt projects/football_manager/Team.cpp" "CMakeFiles/football_manager.dir/Team.cpp.obj" "gcc" "CMakeFiles/football_manager.dir/Team.cpp.obj.d"
   "D:/qt projects/football_manager/build/mingw64-Debug/football_manager_autogen/mocs_compilation.cpp" "CMakeFiles/football_manager.dir/football_manager_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/football_manager.dir/football_manager_autogen/mocs_compilation.cpp.obj.d"
   "D:/qt projects/football_manager/main.cpp" "CMakeFiles/football_manager.dir/main.cpp.obj" "gcc" "CMakeFiles/football_manager.dir/main.cpp.obj.d"
   "D:/qt projects/football_manager/mainwindow.cpp" "CMakeFiles/football_manager.dir/mainwindow.cpp.obj" "gcc" "CMakeFiles/football_manager.dir/mainwindow.cpp.obj.d"
