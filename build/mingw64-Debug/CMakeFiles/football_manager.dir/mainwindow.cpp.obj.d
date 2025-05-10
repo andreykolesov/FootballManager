@@ -366,11 +366,57 @@ CMakeFiles\football_manager.dir\mainwindow.cpp.obj: \
  D:/qt/Tools/mingw_64_2/include/QtGui/qinputmethod.h \
  D:/qt/Tools/mingw_64_2/include/QtCore/qlocale.h \
  D:/qt/Tools/mingw_64_2/include/QtGui/qguiapplication_platform.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/QComboBox \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qcombobox.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qabstractitemdelegate.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qstyleoption.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qabstractspinbox.h \
+ D:/qt/Tools/mingw_64_2/include/QtGui/qvalidator.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qregularexpression.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qslider.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qabstractslider.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qstyle.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qtabbar.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qrubberband.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qframe.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qabstractitemmodel.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/QHBoxLayout \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qboxlayout.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qlayout.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qlayoutitem.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qboxlayout.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qgridlayout.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/QHeaderView \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qheaderview.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qabstractitemview.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qabstractscrollarea.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qitemselectionmodel.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/QLabel \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qlabel.h \
+ D:/qt/Tools/mingw_64_2/include/QtGui/qpicture.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qiodevice.h \
+ D:/qt/Tools/mingw_64_2/include/QtGui/qtextdocument.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qurl.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/QListWidget \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qlistwidget.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qlistview.h \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/QMainWindow \
- D:/qt/Tools/mingw_64_2/include/QtWidgets/QMenuBar \
- D:/qt/Tools/mingw_64_2/include/QtWidgets/qmenubar.h \
- D:/qt/Tools/mingw_64_2/include/QtWidgets/qmenu.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/QPushButton \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qpushbutton.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qabstractbutton.h \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/QStatusBar \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/qstatusbar.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/QTabWidget \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qtabwidget.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/QTableWidget \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qtablewidget.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qtableview.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/QTextEdit \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qtextedit.h \
+ D:/qt/Tools/mingw_64_2/include/QtGui/qtextoption.h \
+ D:/qt/Tools/mingw_64_2/include/QtGui/qtextcursor.h \
+ D:/qt/Tools/mingw_64_2/include/QtGui/qtextformat.h \
+ D:/qt/Tools/mingw_64_2/include/QtGui/qpen.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/QVBoxLayout \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/QWidget \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/qwidget.h

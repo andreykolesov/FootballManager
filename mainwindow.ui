@@ -1,31 +1,202 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>MainWindow</class>
- <widget class="QMainWindow" name="MainWindow">
-  <property name="geometry">
-   <rect>
-    <x>0</x>
-    <y>0</y>
-    <width>800</width>
-    <height>600</height>
-   </rect>
-  </property>
-  <property name="windowTitle">
-   <string>MainWindow</string>
-  </property>
-  <widget class="QWidget" name="centralwidget"/>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>800</width>
-     <height>22</height>
-    </rect>
-   </property>
+  <class>MainWindow</class>
+  <widget class="QMainWindow" name="MainWindow">
+    <property name="geometry">
+      <rect>
+        <x>100</x>
+        <y>100</y>
+        <width>900</width>
+        <height>700</height>
+      </rect>
+    </property>
+    <property name="windowTitle">
+      <string>Football Manager Simulation</string>
+    </property>
+    <widget class="QWidget" name="centralwidget">
+      <layout class="QVBoxLayout" name="verticalLayoutCentral">
+        <item>
+          <!-- Основной TabWidget: Команды, Матчи, Трансферы, Сезон -->
+          <widget class="QTabWidget" name="tabWidgetMain">
+            <property name="tabPosition">
+              <enum>QTabWidget::North</enum>
+            </property>
+            <!-- Вкладка "Команды" -->
+            <widget class="QWidget" name="tabTeams">
+              <attribute name="title">
+                <string>Команды</string>
+              </attribute>
+              <layout class="QVBoxLayout" name="verticalLayoutTeams">
+                <item>
+                  <widget class="QComboBox" name="teamComboBox"/>
+                </item>
+                <item>
+                  <widget class="QLabel" name="labelTeamDetails">
+                    <property name="text">
+                      <string>Детали команды будут отображены здесь</string>
+                    </property>
+                  </widget>
+                </item>
+                <item>
+                  <widget class="QListWidget" name="listWidgetTeamPlayers"/>
+                </item>
+                <item>
+                  <widget class="QPushButton" name="btnConductTraining">
+                    <property name="text">
+                      <string>Провести тренировку</string>
+                    </property>
+                  </widget>
+                </item>
+              </layout>
+            </widget>
+            <!-- Вкладка "Матчи" -->
+            <widget class="QWidget" name="tabMatches">
+              <attribute name="title">
+                <string>Матчи</string>
+              </attribute>
+              <layout class="QVBoxLayout" name="verticalLayoutMatches">
+                <!-- Вложенный TabWidget для матчей: Лига и Турниры -->
+                <item>
+                  <widget class="QTabWidget" name="tabWidgetMatches">
+                    <property name="tabPosition">
+                      <enum>QTabWidget::North</enum>
+                    </property>
+                    <!-- Подвкладка "Лига" -->
+                    <widget class="QWidget" name="tabLeague">
+                      <attribute name="title">
+                        <string>Лига</string>
+                      </attribute>
+                      <layout class="QVBoxLayout" name="verticalLayoutLeague">
+                        <item>
+                          <layout class="QHBoxLayout" name="horizontalLayoutMatchTeams">
+                            <item>
+                              <widget class="QComboBox" name="comboBoxHomeTeam">
+                                <property name="currentText">
+                                  <string>Домашняя команда</string>
+                                </property>
+                              </widget>
+                            </item>
+                            <item>
+                              <widget class="QComboBox" name="comboBoxAwayTeam">
+                                <property name="currentText">
+                                  <string>Гостевая команда</string>
+                                </property>
+                              </widget>
+                            </item>
+                          </layout>
+                        </item>
+                        <item>
+                          <widget class="QPushButton" name="btnStartMatch">
+                            <property name="text">
+                              <string>Начать матч</string>
+                            </property>
+                          </widget>
+                        </item>
+                        <item>
+                          <widget class="QTextEdit" name="textEditMatchEvents">
+                            <property name="readOnly">
+                              <bool>true</bool>
+                            </property>
+                          </widget>
+                        </item>
+                      </layout>
+                    </widget>
+                    <!-- Подвкладка "Турниры" -->
+                    <widget class="QWidget" name="tabTournaments">
+                      <attribute name="title">
+                        <string>Турниры</string>
+                      </attribute>
+                      <layout class="QVBoxLayout" name="verticalLayoutTournaments">
+                        <item>
+                          <widget class="QPushButton" name="btnSimulateKnockout">
+                            <property name="text">
+                              <string>Симулировать турнир</string>
+                            </property>
+                          </widget>
+                        </item>
+                      </layout>
+                    </widget>
+                  </widget>
+                </item>
+              </layout>
+            </widget>
+            <!-- Вкладка "Трансферы" -->
+            <widget class="QWidget" name="tabTransfers">
+              <attribute name="title">
+                <string>Трансферы</string>
+              </attribute>
+              <layout class="QVBoxLayout" name="verticalLayoutTransfers">
+                <item>
+                  <layout class="QHBoxLayout" name="horizontalLayoutTransferTeams">
+                    <item>
+                      <widget class="QComboBox" name="comboBoxSellTeam">
+                        <property name="currentText">
+                          <string>Команда-продавец</string>
+                        </property>
+                      </widget>
+                    </item>
+                    <item>
+                      <widget class="QComboBox" name="comboBoxBuyTeam">
+                        <property name="currentText">
+                          <string>Команда-покупатель</string>
+                        </property>
+                      </widget>
+                    </item>
+                  </layout>
+                </item>
+                <item>
+                  <widget class="QListWidget" name="listWidgetTransferPlayers"/>
+                </item>
+                <item>
+                  <widget class="QPushButton" name="btnTransferPlayer">
+                    <property name="text">
+                      <string>Перевести игрока</string>
+                    </property>
+                  </widget>
+                </item>
+              </layout>
+            </widget>
+            <!-- Вкладка "Сезон" -->
+            <widget class="QWidget" name="tabSeason">
+              <attribute name="title">
+                <string>Сезон</string>
+              </attribute>
+              <layout class="QVBoxLayout" name="verticalLayoutSeason">
+                <item>
+                  <widget class="QPushButton" name="btnNextSeason">
+                    <property name="text">
+                      <string>Следующий сезон</string>
+                    </property>
+                  </widget>
+                </item>
+                <item>
+                  <widget class="QTableWidget" name="tableWidgetStandings">
+                    <property name="columnCount">
+                      <number>10</number>
+                    </property>
+                    <property name="horizontalHeaderLabels">
+                      <stringlist>
+                        <string>Лига</string>
+                        <string>Команда</string>
+                        <string>Игр</string>
+                        <string>Побед</string>
+                        <string>Ничьих</string>
+                        <string>Поражений</string>
+                        <string>Забито</string>
+                        <string>Пропущено</string>
+                        <string>Очки</string>
+                        <string>Бюджет</string>
+                      </stringlist>
+                    </property>
+                  </widget>
+                </item>
+              </layout>
+            </widget>
+          </widget>
+        </item>
+      </layout>
+    </widget>
+    <widget class="QStatusBar" name="statusbar"/>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
- </widget>
- <resources/>
- <connections/>
+  <resources/>
 </ui>
