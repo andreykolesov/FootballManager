@@ -6,6 +6,8 @@ football_manager_autogen/timestamp: \
 	D:/qt\ projects/football_manager/Player.h \
 	D:/qt\ projects/football_manager/Team.cpp \
 	D:/qt\ projects/football_manager/Team.h \
+	D:/qt\ projects/football_manager/Training.cpp \
+	D:/qt\ projects/football_manager/Training.h \
 	D:/qt\ projects/football_manager/build/mingw64-Debug/.qtc/package-manager/auto-setup.cmake \
 	D:/qt\ projects/football_manager/build/mingw64-Debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake \
 	D:/qt\ projects/football_manager/build/mingw64-Debug/CMakeFiles/3.29.3/CMakeRCCompiler.cmake \

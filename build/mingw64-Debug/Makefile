@@ -261,6 +261,30 @@ Team.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\football_manager.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\football_manager.dir\Team.cpp.s
 .PHONY : Team.cpp.s
 
+Training.obj: Training.cpp.obj
+.PHONY : Training.obj
+
+# target to build an object file
+Training.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\football_manager.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\football_manager.dir\Training.cpp.obj
+.PHONY : Training.cpp.obj
+
+Training.i: Training.cpp.i
+.PHONY : Training.i
+
+# target to preprocess a source file
+Training.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\football_manager.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\football_manager.dir\Training.cpp.i
+.PHONY : Training.cpp.i
+
+Training.s: Training.cpp.s
+.PHONY : Training.s
+
+# target to generate assembly for a file
+Training.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\football_manager.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\football_manager.dir\Training.cpp.s
+.PHONY : Training.cpp.s
+
 football_manager_autogen\mocs_compilation.obj: football_manager_autogen\mocs_compilation.cpp.obj
 .PHONY : football_manager_autogen\mocs_compilation.obj
 
@@ -357,6 +381,9 @@ help:
 	@echo ... Team.obj
 	@echo ... Team.i
 	@echo ... Team.s
+	@echo ... Training.obj
+	@echo ... Training.i
+	@echo ... Training.s
 	@echo ... football_manager_autogen/mocs_compilation.obj
 	@echo ... football_manager_autogen/mocs_compilation.i
 	@echo ... football_manager_autogen/mocs_compilation.s
