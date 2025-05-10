@@ -352,6 +352,40 @@ CMakeFiles\football_manager.dir\mainwindow.cpp.obj: \
  D:/qt/Tools/mingw_64_2/include/QtGui/qcursor.h \
  D:/qt/Tools/mingw_64_2/include/QtGui/qbitmap.h \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/qtabwidget.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/QMap \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qmap.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/QListWidgetItem \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qlistwidget.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qlistview.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qabstractitemview.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qabstractscrollarea.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qframe.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qabstractitemmodel.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qitemselectionmodel.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qabstractitemdelegate.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qstyleoption.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qlocale.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qabstractspinbox.h \
+ D:/qt/Tools/mingw_64_2/include/QtGui/qvalidator.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qregularexpression.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qslider.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qabstractslider.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qstyle.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qtabbar.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qrubberband.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/QTimer \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qtimer.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qbasictimer.h \
+ D:\qt\ projects\football_manager\Team.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/QString \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qstring.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/QList \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qlist.h \
+ D:\qt\ projects\football_manager\Player.h \
+ D:\qt\ projects\football_manager\Tournament.h \
+ D:\qt\ projects\football_manager\Match.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/QStringList \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qstringlist.h \
  D:/qt\ projects/football_manager/build/mingw64-Debug/football_manager_autogen/include/ui_mainwindow.h \
  D:/qt/Tools/mingw_64_2/include/QtCore/QVariant \
  D:/qt/Tools/mingw_64_2/include/QtCore/qvariant.h \
@@ -364,22 +398,9 @@ CMakeFiles\football_manager.dir\mainwindow.cpp.obj: \
  D:/qt/Tools/mingw_64_2/include/QtCore/qcoreapplication_platform.h \
  D:/qt/Tools/mingw_64_2/include/QtGui/qguiapplication.h \
  D:/qt/Tools/mingw_64_2/include/QtGui/qinputmethod.h \
- D:/qt/Tools/mingw_64_2/include/QtCore/qlocale.h \
  D:/qt/Tools/mingw_64_2/include/QtGui/qguiapplication_platform.h \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/QComboBox \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/qcombobox.h \
- D:/qt/Tools/mingw_64_2/include/QtWidgets/qabstractitemdelegate.h \
- D:/qt/Tools/mingw_64_2/include/QtWidgets/qstyleoption.h \
- D:/qt/Tools/mingw_64_2/include/QtWidgets/qabstractspinbox.h \
- D:/qt/Tools/mingw_64_2/include/QtGui/qvalidator.h \
- D:/qt/Tools/mingw_64_2/include/QtCore/qregularexpression.h \
- D:/qt/Tools/mingw_64_2/include/QtWidgets/qslider.h \
- D:/qt/Tools/mingw_64_2/include/QtWidgets/qabstractslider.h \
- D:/qt/Tools/mingw_64_2/include/QtWidgets/qstyle.h \
- D:/qt/Tools/mingw_64_2/include/QtWidgets/qtabbar.h \
- D:/qt/Tools/mingw_64_2/include/QtWidgets/qrubberband.h \
- D:/qt/Tools/mingw_64_2/include/QtWidgets/qframe.h \
- D:/qt/Tools/mingw_64_2/include/QtCore/qabstractitemmodel.h \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/QHBoxLayout \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/qboxlayout.h \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/qlayout.h \
@@ -388,9 +409,6 @@ CMakeFiles\football_manager.dir\mainwindow.cpp.obj: \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/qgridlayout.h \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/QHeaderView \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/qheaderview.h \
- D:/qt/Tools/mingw_64_2/include/QtWidgets/qabstractitemview.h \
- D:/qt/Tools/mingw_64_2/include/QtWidgets/qabstractscrollarea.h \
- D:/qt/Tools/mingw_64_2/include/QtCore/qitemselectionmodel.h \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/QLabel \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/qlabel.h \
  D:/qt/Tools/mingw_64_2/include/QtGui/qpicture.h \
@@ -398,8 +416,6 @@ CMakeFiles\football_manager.dir\mainwindow.cpp.obj: \
  D:/qt/Tools/mingw_64_2/include/QtGui/qtextdocument.h \
  D:/qt/Tools/mingw_64_2/include/QtCore/qurl.h \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/QListWidget \
- D:/qt/Tools/mingw_64_2/include/QtWidgets/qlistwidget.h \
- D:/qt/Tools/mingw_64_2/include/QtWidgets/qlistview.h \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/QMainWindow \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/QPushButton \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/qpushbutton.h \
@@ -419,4 +435,21 @@ CMakeFiles\football_manager.dir\mainwindow.cpp.obj: \
  D:/qt/Tools/mingw_64_2/include/QtGui/qpen.h \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/QVBoxLayout \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/QWidget \
- D:/qt/Tools/mingw_64_2/include/QtWidgets/qwidget.h
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qwidget.h \
+ D:\qt\ projects\football_manager\Training.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/QMessageBox \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qmessagebox.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qdialog.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/QTableWidgetItem \
+ D:/qt/Tools/mingw_64_2/include/QtCore/QRandomGenerator \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qrandom.h \
+ D:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/random \
+ D:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/random.h \
+ D:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/opt_random.h \
+ D:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/pmmintrin.h \
+ D:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/emmintrin.h \
+ D:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xmmintrin.h \
+ D:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mmintrin.h \
+ D:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/random.tcc \
+ D:/qt/Tools/mingw_64_2/include/QtCore/QtGlobal \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qglobal.h

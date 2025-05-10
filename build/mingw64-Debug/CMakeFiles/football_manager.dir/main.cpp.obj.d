@@ -352,6 +352,40 @@ CMakeFiles\football_manager.dir\main.cpp.obj: \
  D:/qt/Tools/mingw_64_2/include/QtGui/qcursor.h \
  D:/qt/Tools/mingw_64_2/include/QtGui/qbitmap.h \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/qtabwidget.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/QMap \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qmap.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/QListWidgetItem \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qlistwidget.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qlistview.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qabstractitemview.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qabstractscrollarea.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qframe.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qabstractitemmodel.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qitemselectionmodel.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qabstractitemdelegate.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qstyleoption.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qlocale.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qabstractspinbox.h \
+ D:/qt/Tools/mingw_64_2/include/QtGui/qvalidator.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qregularexpression.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qslider.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qabstractslider.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qstyle.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qtabbar.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qrubberband.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/QTimer \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qtimer.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qbasictimer.h \
+ D:\qt\ projects\football_manager\Team.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/QString \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qstring.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/QList \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qlist.h \
+ D:\qt\ projects\football_manager\Player.h \
+ D:\qt\ projects\football_manager\Tournament.h \
+ D:\qt\ projects\football_manager\Match.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/QStringList \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qstringlist.h \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/QApplication \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/qapplication.h \
  D:/qt/Tools/mingw_64_2/include/QtCore/qcoreapplication.h \
@@ -361,5 +395,4 @@ CMakeFiles\football_manager.dir\main.cpp.obj: \
  D:/qt/Tools/mingw_64_2/include/QtCore/qcoreapplication_platform.h \
  D:/qt/Tools/mingw_64_2/include/QtGui/qguiapplication.h \
  D:/qt/Tools/mingw_64_2/include/QtGui/qinputmethod.h \
- D:/qt/Tools/mingw_64_2/include/QtCore/qlocale.h \
  D:/qt/Tools/mingw_64_2/include/QtGui/qguiapplication_platform.h
