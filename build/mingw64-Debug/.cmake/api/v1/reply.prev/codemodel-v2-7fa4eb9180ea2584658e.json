@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d632ff1b22c688b09f5f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "football_manager",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "football_manager::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-football_manager-Debug-17a1a78125122a9fcf6b.json",
+					"name" : "football_manager",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "football_manager_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-football_manager_autogen-Debug-7eb452ac8b158dde67d6.json",
+					"name" : "football_manager_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "football_manager_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-football_manager_autogen_timestamp_deps-Debug-1516b6ddb922d7559799.json",
+					"name" : "football_manager_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/qt projects/football_manager/build/mingw64-Debug",
+		"source" : "D:/qt projects/football_manager"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

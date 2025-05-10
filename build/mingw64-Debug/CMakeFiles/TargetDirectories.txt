@@ -1,0 +1,9 @@
+D:/qt projects/football_manager/build/mingw64-Debug/CMakeFiles/football_manager.dir
+D:/qt projects/football_manager/build/mingw64-Debug/CMakeFiles/edit_cache.dir
+D:/qt projects/football_manager/build/mingw64-Debug/CMakeFiles/rebuild_cache.dir
+D:/qt projects/football_manager/build/mingw64-Debug/CMakeFiles/list_install_components.dir
+D:/qt projects/football_manager/build/mingw64-Debug/CMakeFiles/install.dir
+D:/qt projects/football_manager/build/mingw64-Debug/CMakeFiles/install/local.dir
+D:/qt projects/football_manager/build/mingw64-Debug/CMakeFiles/install/strip.dir
+D:/qt projects/football_manager/build/mingw64-Debug/CMakeFiles/football_manager_autogen_timestamp_deps.dir
+D:/qt projects/football_manager/build/mingw64-Debug/CMakeFiles/football_manager_autogen.dir

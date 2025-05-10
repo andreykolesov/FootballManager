@@ -1,0 +1,1 @@
+-I"D:/qt projects/football_manager/build/mingw64-Debug/football_manager_autogen/include" -isystem D:/qt/Tools/mingw_64_2/include/QtCore -isystem D:/qt/Tools/mingw_64_2/include -isystem "D:/qt/Tools/mingw_64_2/mkspecs/win32-g++" -isystem D:/qt/Tools/mingw_64_2/include/QtWidgets -isystem D:/qt/Tools/mingw_64_2/include/QtGui

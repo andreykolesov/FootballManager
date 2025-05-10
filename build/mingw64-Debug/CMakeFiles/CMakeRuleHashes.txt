@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+596ab5b209a56c42a85a5e9ce888d668 CMakeFiles/football_manager_autogen
+5542d899b500291888bde7d75e815a21 football_manager_autogen/timestamp
