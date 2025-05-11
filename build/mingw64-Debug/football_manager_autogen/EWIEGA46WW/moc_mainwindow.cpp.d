@@ -204,9 +204,12 @@ D:/qt\ projects/football_manager/build/mingw64-Debug/football_manager_autogen/EW
   D:/qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
   D:/qt/Tools/mingw_64_2/include/QtCore/QList \
   D:/qt/Tools/mingw_64_2/include/QtCore/QMap \
+  D:/qt/Tools/mingw_64_2/include/QtCore/QSet \
   D:/qt/Tools/mingw_64_2/include/QtCore/QString \
   D:/qt/Tools/mingw_64_2/include/QtCore/QStringList \
   D:/qt/Tools/mingw_64_2/include/QtCore/QTimer \
+  D:/qt/Tools/mingw_64_2/include/QtCore/QVariant \
+  D:/qt/Tools/mingw_64_2/include/QtCore/QVariantMap \
   D:/qt/Tools/mingw_64_2/include/QtCore/q20memory.h \
   D:/qt/Tools/mingw_64_2/include/QtCore/q20type_traits.h \
   D:/qt/Tools/mingw_64_2/include/QtCore/qabstractitemmodel.h \
@@ -318,6 +321,7 @@ D:/qt\ projects/football_manager/build/mingw64-Debug/football_manager_autogen/EW
   D:/qt/Tools/mingw_64_2/include/QtCore/qtypes.h \
   D:/qt/Tools/mingw_64_2/include/QtCore/qutf8stringview.h \
   D:/qt/Tools/mingw_64_2/include/QtCore/qvariant.h \
+  D:/qt/Tools/mingw_64_2/include/QtCore/qvariantmap.h \
   D:/qt/Tools/mingw_64_2/include/QtCore/qvarlengtharray.h \
   D:/qt/Tools/mingw_64_2/include/QtCore/qversiontagging.h \
   D:/qt/Tools/mingw_64_2/include/QtCore/qxptype_traits.h \

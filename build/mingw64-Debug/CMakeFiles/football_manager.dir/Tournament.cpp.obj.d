@@ -279,6 +279,55 @@ CMakeFiles\football_manager.dir\Tournament.cpp.obj: \
  D:/qt/Tools/mingw_64_2/include/QtCore/qalgorithms.h \
  D:/qt/Tools/mingw_64_2/include/QtCore/qstringmatcher.h \
  D:\qt\ projects\football_manager\Player.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/QVariantMap \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qvariantmap.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/QMap \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qmap.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qshareddata.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qshareddata_impl.h \
+ D:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/map \
+ D:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_tree.h \
+ D:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_map.h \
+ D:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_multimap.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/QVariant \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qvariant.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qmetatype.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qcompare.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qdatastream.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qscopedpointer.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qiodevicebase.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qfloat16.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qmath.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qiterable.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qmetacontainer.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qcontainerinfo.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qtaggedpointer.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qobjectdefs.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qobjectdefs_impl.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qscopeguard.h \
+ D:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/list \
+ D:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_list.h \
+ D:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/list.tcc \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qdebug.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qtextstream.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qstringconverter_base.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qcontiguouscache.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qsharedpointer.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qsharedpointer_impl.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qmap.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qset.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qhash.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qvarlengtharray.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/q20memory.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qobject.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qobject_impl.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qbindingstorage.h \
+ D:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/chrono \
+ D:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ratio \
+ D:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime \
+ D:/qt/Tools/mingw_64_2/include/QtCore/QString \
+ D:/qt/Tools/mingw_64_2/include/QtCore/QSet \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qset.h \
  D:\qt\ projects\football_manager\Match.h \
  D:/qt/Tools/mingw_64_2/include/QtCore/QStringList \
  D:/qt/Tools/mingw_64_2/include/QtCore/qstringlist.h \

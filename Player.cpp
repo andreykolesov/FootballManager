@@ -1,63 +1,99 @@
 #include "Player.h"
+#include "Training.h"
+#include <QRandomGenerator>
 
-Player::Player(const QString &name,
-               const QString &position,
-               int speed,
-               int shotPrecision,
-               int endurance,
-               int dribbling,
-               int passPrecision,
-               int defenseSkill,
-               int physicalStrength,
-               int currentForm,
-               int price)
-    : m_name(name),
-    m_position(position),
-    m_speed(speed),
-    m_shotPrecision(shotPrecision),
-    m_endurance(endurance),
-    m_dribbling(dribbling),
-    m_passPrecision(passPrecision),
-    m_defenseSkill(defenseSkill),
-    m_physicalStrength(physicalStrength),
-    m_currentForm(currentForm),
-    m_price(price)
-{}
+QSet<QString> Player::s_usedSignatures;
+
+Player* Player::create(const QString &name)
+{
+    return new Player(name);
+}
+
+Player::Player(const QString &name)
+    : m_name(name)
+{
+    m_age = QRandomGenerator::global()->bounded(18, 41);
+    while (true) {
+        int dr = QRandomGenerator::global()->bounded(60, 101);
+        int def = QRandomGenerator::global()->bounded(60, 101);
+        int sh = QRandomGenerator::global()->bounded(60, 101);
+        int sp = QRandomGenerator::global()->bounded(60, 101);
+        int pa = QRandomGenerator::global()->bounded(60, 101);
+        int en = QRandomGenerator::global()->bounded(60, 101);
+        int ps = QRandomGenerator::global()->bounded(60, 101);
+        int cf = QRandomGenerator::global()->bounded(60, 101);
+        QString sig = makeSignature(dr, def, sh, sp, pa, en, ps, cf);
+        if (!s_usedSignatures.contains(sig)) {
+            s_usedSignatures.insert(sig);
+            m_dribbling = dr;
+            m_defense = def;
+            m_shot = sh;
+            m_speed = sp;
+            m_pass = pa;
+            m_endurance = en;
+            m_physicalStrength = ps;
+            m_currentForm = cf;
+            break;
+        }
+    }
+    m_price = QRandomGenerator::global()->bounded(100, 301);
+}
 
 QString Player::getName() const { return m_name; }
-QString Player::getPosition() const { return m_position; }
-int Player::getSpeed() const { return m_speed; }
-int Player::getShotPrecision() const { return m_shotPrecision; }
-int Player::getEndurance() const { return m_endurance; }
+int Player::getAge() const { return m_age; }
 int Player::getDribbling() const { return m_dribbling; }
-int Player::getPassPrecision() const { return m_passPrecision; }
-int Player::getDefenseSkill() const { return m_defenseSkill; }
+int Player::getDefense() const { return m_defense; }
+int Player::getShot() const { return m_shot; }
+int Player::getSpeed() const { return m_speed; }
+int Player::getPass() const { return m_pass; }
+int Player::getEndurance() const { return m_endurance; }
 int Player::getPhysicalStrength() const { return m_physicalStrength; }
 int Player::getCurrentForm() const { return m_currentForm; }
 int Player::getPrice() const { return m_price; }
 
-void Player::setSpeed(int value) { m_speed = value; }
-void Player::setShotPrecision(int value) { m_shotPrecision = value; }
-void Player::setEndurance(int value) { m_endurance = value; }
 void Player::setDribbling(int value) { m_dribbling = value; }
-void Player::setPassPrecision(int value) { m_passPrecision = value; }
-void Player::setDefenseSkill(int value) { m_defenseSkill = value; }
+void Player::setDefense(int value) { m_defense = value; }
+void Player::setShot(int value) { m_shot = value; }
+void Player::setSpeed(int value) { m_speed = value; }
+void Player::setPass(int value) { m_pass = value; }
+void Player::setEndurance(int value) { m_endurance = value; }
 void Player::setPhysicalStrength(int value) { m_physicalStrength = value; }
 void Player::setCurrentForm(int value) { m_currentForm = value; }
 
-QString Player::getDetails() const {
-    return QString("Имя: %1\nПозиция: %2\nСкорость: %3\nТочность удара: %4\nВыносливость: %5\n"
-                   "Дриблинг: %6\nТочность паса: %7\nОборонительные умения: %8\nФизическая сила: %9\n"
-                   "Форма: %10\nСтоимость: %11")
-        .arg(m_name)
-        .arg(m_position)
-        .arg(m_speed)
-        .arg(m_shotPrecision)
-        .arg(m_endurance)
-        .arg(m_dribbling)
-        .arg(m_passPrecision)
-        .arg(m_defenseSkill)
-        .arg(m_physicalStrength)
-        .arg(m_currentForm)
-        .arg(m_price);
+void Player::age() {
+    m_age++;
+    m_currentForm = qMax(m_currentForm - 2, 50);
+    m_dribbling = qMax(m_dribbling - 1, 50);
+    m_defense = qMax(m_defense - 1, 50);
+    m_shot = qMax(m_shot - 1, 50);
+    m_speed = qMax(m_speed - 1, 50);
+    m_pass = qMax(m_pass - 1, 50);
+    m_endurance = qMax(m_endurance - 1, 50);
+    m_physicalStrength = qMax(m_physicalStrength - 1, 50);
+}
+
+void Player::train() {
+    TrainingSession::conductTraining(this);
+}
+
+QString Player::makeSignature(int dr, int def, int sh, int sp, int pa, int en, int ps, int cf) {
+    return QString("%1_%2_%3_%4_%5_%6_%7_%8")
+    .arg(dr).arg(def).arg(sh).arg(sp)
+        .arg(pa).arg(en).arg(ps).arg(cf);
+}
+
+QVariantMap Player::getStats() const {
+    QVariantMap stats;
+    stats["Имя"] = m_name;
+    stats["Возраст"] = m_age;
+    stats["Дриблинг"] = m_dribbling;
+    stats["Защита"] = m_defense;
+    stats["Удар"] = m_shot;
+    stats["Скорость"] = m_speed;
+    stats["Пас"] = m_pass;
+    stats["Выносливость"] = m_endurance;
+    stats["Физическая сила"] = m_physicalStrength;
+    stats["Форма"] = m_currentForm;
+    stats["Цена"] = m_price;
+    return stats;
 }

@@ -383,6 +383,14 @@ CMakeFiles\football_manager.dir\football_manager_autogen\mocs_compilation.cpp.ob
  D:/qt/Tools/mingw_64_2/include/QtCore/QList \
  D:/qt/Tools/mingw_64_2/include/QtCore/qlist.h \
  D:/qt\ projects/football_manager/Player.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/QVariantMap \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qvariantmap.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/QMap \
+ D:/qt/Tools/mingw_64_2/include/QtCore/QVariant \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qvariant.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/QString \
+ D:/qt/Tools/mingw_64_2/include/QtCore/QSet \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qset.h \
  D:/qt\ projects/football_manager/Tournament.h \
  D:/qt\ projects/football_manager/Match.h \
  D:/qt/Tools/mingw_64_2/include/QtCore/QStringList \
