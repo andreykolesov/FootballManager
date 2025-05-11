@@ -407,8 +407,6 @@ CMakeFiles\football_manager.dir\mainwindow.cpp.obj: \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/qlayoutitem.h \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/qboxlayout.h \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/qgridlayout.h \
- D:/qt/Tools/mingw_64_2/include/QtWidgets/QHeaderView \
- D:/qt/Tools/mingw_64_2/include/QtWidgets/qheaderview.h \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/QLabel \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/qlabel.h \
  D:/qt/Tools/mingw_64_2/include/QtGui/qpicture.h \
@@ -424,15 +422,6 @@ CMakeFiles\football_manager.dir\mainwindow.cpp.obj: \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/qstatusbar.h \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/QTabWidget \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/qtabwidget.h \
- D:/qt/Tools/mingw_64_2/include/QtWidgets/QTableWidget \
- D:/qt/Tools/mingw_64_2/include/QtWidgets/qtablewidget.h \
- D:/qt/Tools/mingw_64_2/include/QtWidgets/qtableview.h \
- D:/qt/Tools/mingw_64_2/include/QtWidgets/QTextEdit \
- D:/qt/Tools/mingw_64_2/include/QtWidgets/qtextedit.h \
- D:/qt/Tools/mingw_64_2/include/QtGui/qtextoption.h \
- D:/qt/Tools/mingw_64_2/include/QtGui/qtextcursor.h \
- D:/qt/Tools/mingw_64_2/include/QtGui/qtextformat.h \
- D:/qt/Tools/mingw_64_2/include/QtGui/qpen.h \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/QVBoxLayout \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/QWidget \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/qwidget.h \
@@ -441,6 +430,8 @@ CMakeFiles\football_manager.dir\mainwindow.cpp.obj: \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/qmessagebox.h \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/qdialog.h \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/QTableWidgetItem \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qtablewidget.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qtableview.h \
  D:/qt/Tools/mingw_64_2/include/QtCore/QRandomGenerator \
  D:/qt/Tools/mingw_64_2/include/QtCore/qrandom.h \
  D:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/random \
