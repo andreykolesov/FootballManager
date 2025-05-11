@@ -37,6 +37,7 @@ CMakeFiles\football_manager.dir\Match.cpp.obj: "D:\qt projects\football_manager\
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\hashtable_policy.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\invoke.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\ios_base.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\list.tcc \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\locale_classes.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\locale_classes.tcc \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\localefwd.h \
@@ -68,11 +69,15 @@ CMakeFiles\football_manager.dir\Match.cpp.obj: "D:\qt projects\football_manager\
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_iterator.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_iterator_base_funcs.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_iterator_base_types.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_list.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_map.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_multimap.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_numeric.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_pair.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_raw_storage_iter.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_relops.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_tempbuf.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_tree.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_uninitialized.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_vector.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stream_iterator.h \
@@ -87,6 +92,7 @@ CMakeFiles\football_manager.dir\Match.cpp.obj: "D:\qt projects\football_manager\
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\vector.tcc \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cctype \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cerrno \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\chrono \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\clocale \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cmath \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cstddef \
@@ -94,6 +100,7 @@ CMakeFiles\football_manager.dir\Match.cpp.obj: "D:\qt projects\football_manager\
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cstdio \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cstdlib \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cstring \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\ctime \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cwchar \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\debug\assertions.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\debug\debug.h \
@@ -111,6 +118,8 @@ CMakeFiles\football_manager.dir\Match.cpp.obj: "D:\qt projects\football_manager\
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\iosfwd \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\iterator \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\limits \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\list \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\map \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\memory \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\new \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\numeric \
@@ -121,6 +130,7 @@ CMakeFiles\football_manager.dir\Match.cpp.obj: "D:\qt projects\football_manager\
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\pstl\glue_numeric_defs.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\pstl\pstl_config.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\random \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\ratio \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\stdexcept \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\stdlib.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\streambuf \
@@ -211,9 +221,14 @@ CMakeFiles\football_manager.dir\Match.cpp.obj: "D:\qt projects\football_manager\
   D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\vadefs.h \
   D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\wchar.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\QList \
+  D:\qt\Tools\mingw_64_2\include\QtCore\QMap \
   D:\qt\Tools\mingw_64_2\include\QtCore\QRandomGenerator \
+  D:\qt\Tools\mingw_64_2\include\QtCore\QSet \
   D:\qt\Tools\mingw_64_2\include\QtCore\QString \
   D:\qt\Tools\mingw_64_2\include\QtCore\QStringList \
+  D:\qt\Tools\mingw_64_2\include\QtCore\QVariant \
+  D:\qt\Tools\mingw_64_2\include\QtCore\QVariantMap \
+  D:\qt\Tools\mingw_64_2\include\QtCore\q20memory.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\q20type_traits.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qalgorithms.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qanystringview.h \
@@ -224,41 +239,67 @@ CMakeFiles\football_manager.dir\Match.cpp.obj: "D:\qt projects\football_manager\
   D:\qt\Tools\mingw_64_2\include\QtCore\qatomic.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qatomic_cxx11.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qbasicatomic.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qbindingstorage.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qbytearray.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qbytearrayalgorithms.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qbytearraylist.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qbytearrayview.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qchar.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qcompare.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qcompare_impl.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qcompilerdetection.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qconfig.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qconstructormacros.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qcontainerfwd.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qcontainerinfo.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qcontainertools_impl.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qcontiguouscache.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qdarwinhelpers.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qdatastream.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qdebug.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qexceptionhandling.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qflags.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qfloat16.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qforeach.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qfunctionpointer.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qgenericatomic.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qglobal.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qglobalstatic.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qhash.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qhashfunctions.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qiodevicebase.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qiterable.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qiterator.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qlist.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qlogging.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qmalloc.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qmap.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qmath.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qmetacontainer.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qmetatype.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qminmax.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qnamespace.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qnumeric.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qobject.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qobject_impl.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qobjectdefs.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qobjectdefs_impl.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qoverload.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qpair.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qprocessordetection.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qrandom.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qrefcount.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qscopedpointer.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qscopeguard.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qset.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qshareddata.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qshareddata_impl.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qsharedpointer.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qsharedpointer_impl.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qstring.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qstringalgorithms.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qstringbuilder.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qstringconverter_base.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qstringfwd.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qstringlist.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qstringliteral.h \
@@ -268,12 +309,14 @@ CMakeFiles\football_manager.dir\Match.cpp.obj: "D:\qt projects\football_manager\
   D:\qt\Tools\mingw_64_2\include\QtCore\qswap.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qsysinfo.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qsystemdetection.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qtaggedpointer.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtclasshelpermacros.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtconfigmacros.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtcore-config.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtcoreexports.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtdeprecationmarkers.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtenvironmentvariables.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qtextstream.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtmetamacros.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtnoop.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtpreprocessorsupport.h \
@@ -285,6 +328,9 @@ CMakeFiles\football_manager.dir\Match.cpp.obj: "D:\qt projects\football_manager\
   D:\qt\Tools\mingw_64_2\include\QtCore\qtypeinfo.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtypes.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qutf8stringview.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qvariant.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qvariantmap.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qvarlengtharray.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qversiontagging.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qxptype_traits.h \
   "D:\qt projects\football_manager\Match.h" \
@@ -327,6 +373,7 @@ CMakeFiles\football_manager.dir\Player.cpp.obj: "D:\qt projects\football_manager
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\hashtable_policy.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\invoke.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\ios_base.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\list.tcc \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\locale_classes.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\locale_classes.tcc \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\localefwd.h \
@@ -339,6 +386,8 @@ CMakeFiles\football_manager.dir\Player.cpp.obj: "D:\qt projects\football_manager
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\postypes.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\predefined_ops.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\ptr_traits.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\random.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\random.tcc \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\range_access.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\refwrap.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\shared_ptr.h \
@@ -356,10 +405,15 @@ CMakeFiles\football_manager.dir\Player.cpp.obj: "D:\qt projects\football_manager
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_iterator.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_iterator_base_funcs.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_iterator_base_types.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_list.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_map.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_multimap.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_numeric.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_pair.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_raw_storage_iter.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_relops.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_tempbuf.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_tree.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_uninitialized.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_vector.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stream_iterator.h \
@@ -374,6 +428,7 @@ CMakeFiles\football_manager.dir\Player.cpp.obj: "D:\qt projects\football_manager
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\vector.tcc \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cctype \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cerrno \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\chrono \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\clocale \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cmath \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cstddef \
@@ -381,6 +436,7 @@ CMakeFiles\football_manager.dir\Player.cpp.obj: "D:\qt projects\football_manager
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cstdio \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cstdlib \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cstring \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\ctime \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cwchar \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\debug\assertions.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\debug\debug.h \
@@ -398,13 +454,19 @@ CMakeFiles\football_manager.dir\Player.cpp.obj: "D:\qt projects\football_manager
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\iosfwd \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\iterator \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\limits \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\list \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\map \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\memory \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\new \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\numeric \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\optional \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\pstl\execution_defs.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\pstl\glue_algorithm_defs.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\pstl\glue_memory_defs.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\pstl\glue_numeric_defs.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\pstl\pstl_config.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\random \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\ratio \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\stdexcept \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\stdlib.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\streambuf \
@@ -439,12 +501,17 @@ CMakeFiles\football_manager.dir\Player.cpp.obj: "D:\qt projects\football_manager
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\x86_64-w64-mingw32\bits\error_constants.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\x86_64-w64-mingw32\bits\gthr-default.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\x86_64-w64-mingw32\bits\gthr.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\x86_64-w64-mingw32\bits\opt_random.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\x86_64-w64-mingw32\bits\os_defines.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\emmintrin.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\mm_malloc.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\mmintrin.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\pmmintrin.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\stdarg.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\stdbool.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\stddef.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\stdint.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\xmmintrin.h \
   D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\_mingw.h \
   D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\_mingw_mac.h \
   D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\_mingw_off_t.h \
@@ -489,8 +556,15 @@ CMakeFiles\football_manager.dir\Player.cpp.obj: "D:\qt projects\football_manager
   D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\time.h \
   D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\vadefs.h \
   D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\wchar.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\QMap \
+  D:\qt\Tools\mingw_64_2\include\QtCore\QRandomGenerator \
+  D:\qt\Tools\mingw_64_2\include\QtCore\QSet \
   D:\qt\Tools\mingw_64_2\include\QtCore\QString \
+  D:\qt\Tools\mingw_64_2\include\QtCore\QVariant \
+  D:\qt\Tools\mingw_64_2\include\QtCore\QVariantMap \
+  D:\qt\Tools\mingw_64_2\include\QtCore\q20memory.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\q20type_traits.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qalgorithms.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qanystringview.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qarraydata.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qarraydataops.h \
@@ -499,49 +573,84 @@ CMakeFiles\football_manager.dir\Player.cpp.obj: "D:\qt projects\football_manager
   D:\qt\Tools\mingw_64_2\include\QtCore\qatomic.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qatomic_cxx11.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qbasicatomic.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qbindingstorage.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qbytearray.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qbytearrayalgorithms.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qbytearraylist.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qbytearrayview.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qchar.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qcompare.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qcompare_impl.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qcompilerdetection.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qconfig.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qconstructormacros.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qcontainerfwd.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qcontainerinfo.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qcontainertools_impl.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qcontiguouscache.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qdarwinhelpers.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qdatastream.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qdebug.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qexceptionhandling.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qflags.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qfloat16.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qforeach.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qfunctionpointer.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qgenericatomic.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qglobal.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qglobalstatic.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qhash.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qhashfunctions.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qiodevicebase.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qiterable.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qiterator.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qlist.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qlogging.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qmalloc.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qmap.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qmath.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qmetacontainer.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qmetatype.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qminmax.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qnamespace.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qnumeric.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qobject.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qobject_impl.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qobjectdefs.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qobjectdefs_impl.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qoverload.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qpair.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qprocessordetection.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qrandom.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qrefcount.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qscopedpointer.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qscopeguard.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qset.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qshareddata.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qshareddata_impl.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qsharedpointer.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qsharedpointer_impl.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qstring.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qstringalgorithms.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qstringbuilder.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qstringconverter_base.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qstringfwd.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qstringlist.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qstringliteral.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qstringmatcher.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qstringtokenizer.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qstringview.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qswap.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qsysinfo.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qsystemdetection.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qtaggedpointer.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtclasshelpermacros.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtconfigmacros.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtcore-config.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtcoreexports.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtdeprecationmarkers.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtenvironmentvariables.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qtextstream.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtmetamacros.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtnoop.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtpreprocessorsupport.h \
@@ -553,9 +662,13 @@ CMakeFiles\football_manager.dir\Player.cpp.obj: "D:\qt projects\football_manager
   D:\qt\Tools\mingw_64_2\include\QtCore\qtypeinfo.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtypes.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qutf8stringview.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qvariant.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qvariantmap.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qvarlengtharray.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qversiontagging.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qxptype_traits.h \
-  "D:\qt projects\football_manager\Player.h"
+  "D:\qt projects\football_manager\Player.h" \
+  "D:\qt projects\football_manager\Training.h"
 
 CMakeFiles\football_manager.dir\Team.cpp.obj: "D:\qt projects\football_manager\Team.cpp" \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include-fixed\limits.h \
@@ -593,6 +706,7 @@ CMakeFiles\football_manager.dir\Team.cpp.obj: "D:\qt projects\football_manager\T
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\hashtable_policy.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\invoke.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\ios_base.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\list.tcc \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\locale_classes.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\locale_classes.tcc \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\localefwd.h \
@@ -622,11 +736,15 @@ CMakeFiles\football_manager.dir\Team.cpp.obj: "D:\qt projects\football_manager\T
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_iterator.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_iterator_base_funcs.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_iterator_base_types.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_list.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_map.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_multimap.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_numeric.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_pair.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_raw_storage_iter.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_relops.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_tempbuf.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_tree.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_uninitialized.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_vector.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stream_iterator.h \
@@ -641,6 +759,7 @@ CMakeFiles\football_manager.dir\Team.cpp.obj: "D:\qt projects\football_manager\T
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\vector.tcc \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cctype \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cerrno \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\chrono \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\clocale \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cmath \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cstddef \
@@ -648,6 +767,7 @@ CMakeFiles\football_manager.dir\Team.cpp.obj: "D:\qt projects\football_manager\T
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cstdio \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cstdlib \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cstring \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\ctime \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cwchar \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\debug\assertions.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\debug\debug.h \
@@ -665,6 +785,8 @@ CMakeFiles\football_manager.dir\Team.cpp.obj: "D:\qt projects\football_manager\T
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\iosfwd \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\iterator \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\limits \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\list \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\map \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\memory \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\new \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\numeric \
@@ -674,6 +796,7 @@ CMakeFiles\football_manager.dir\Team.cpp.obj: "D:\qt projects\football_manager\T
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\pstl\glue_memory_defs.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\pstl\glue_numeric_defs.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\pstl\pstl_config.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\ratio \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\stdexcept \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\stdlib.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\streambuf \
@@ -759,7 +882,12 @@ CMakeFiles\football_manager.dir\Team.cpp.obj: "D:\qt projects\football_manager\T
   D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\vadefs.h \
   D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\wchar.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\QList \
+  D:\qt\Tools\mingw_64_2\include\QtCore\QMap \
+  D:\qt\Tools\mingw_64_2\include\QtCore\QSet \
   D:\qt\Tools\mingw_64_2\include\QtCore\QString \
+  D:\qt\Tools\mingw_64_2\include\QtCore\QVariant \
+  D:\qt\Tools\mingw_64_2\include\QtCore\QVariantMap \
+  D:\qt\Tools\mingw_64_2\include\QtCore\q20memory.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\q20type_traits.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qalgorithms.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qanystringview.h \
@@ -770,40 +898,66 @@ CMakeFiles\football_manager.dir\Team.cpp.obj: "D:\qt projects\football_manager\T
   D:\qt\Tools\mingw_64_2\include\QtCore\qatomic.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qatomic_cxx11.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qbasicatomic.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qbindingstorage.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qbytearray.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qbytearrayalgorithms.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qbytearraylist.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qbytearrayview.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qchar.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qcompare.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qcompare_impl.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qcompilerdetection.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qconfig.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qconstructormacros.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qcontainerfwd.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qcontainerinfo.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qcontainertools_impl.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qcontiguouscache.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qdarwinhelpers.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qdatastream.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qdebug.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qexceptionhandling.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qflags.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qfloat16.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qforeach.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qfunctionpointer.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qgenericatomic.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qglobal.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qglobalstatic.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qhash.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qhashfunctions.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qiodevicebase.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qiterable.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qiterator.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qlist.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qlogging.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qmalloc.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qmap.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qmath.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qmetacontainer.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qmetatype.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qminmax.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qnamespace.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qnumeric.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qobject.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qobject_impl.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qobjectdefs.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qobjectdefs_impl.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qoverload.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qpair.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qprocessordetection.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qrefcount.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qscopedpointer.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qscopeguard.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qset.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qshareddata.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qshareddata_impl.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qsharedpointer.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qsharedpointer_impl.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qstring.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qstringalgorithms.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qstringbuilder.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qstringconverter_base.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qstringfwd.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qstringlist.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qstringliteral.h \
@@ -813,12 +967,14 @@ CMakeFiles\football_manager.dir\Team.cpp.obj: "D:\qt projects\football_manager\T
   D:\qt\Tools\mingw_64_2\include\QtCore\qswap.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qsysinfo.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qsystemdetection.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qtaggedpointer.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtclasshelpermacros.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtconfigmacros.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtcore-config.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtcoreexports.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtdeprecationmarkers.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtenvironmentvariables.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qtextstream.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtmetamacros.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtnoop.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtpreprocessorsupport.h \
@@ -830,6 +986,9 @@ CMakeFiles\football_manager.dir\Team.cpp.obj: "D:\qt projects\football_manager\T
   D:\qt\Tools\mingw_64_2\include\QtCore\qtypeinfo.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtypes.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qutf8stringview.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qvariant.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qvariantmap.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qvarlengtharray.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qversiontagging.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qxptype_traits.h \
   "D:\qt projects\football_manager\Player.h" \
@@ -871,6 +1030,7 @@ CMakeFiles\football_manager.dir\Tournament.cpp.obj: "D:\qt projects\football_man
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\hashtable_policy.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\invoke.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\ios_base.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\list.tcc \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\locale_classes.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\locale_classes.tcc \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\localefwd.h \
@@ -902,11 +1062,15 @@ CMakeFiles\football_manager.dir\Tournament.cpp.obj: "D:\qt projects\football_man
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_iterator.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_iterator_base_funcs.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_iterator_base_types.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_list.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_map.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_multimap.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_numeric.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_pair.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_raw_storage_iter.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_relops.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_tempbuf.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_tree.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_uninitialized.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_vector.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stream_iterator.h \
@@ -921,6 +1085,7 @@ CMakeFiles\football_manager.dir\Tournament.cpp.obj: "D:\qt projects\football_man
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\vector.tcc \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cctype \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cerrno \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\chrono \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\clocale \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cmath \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cstddef \
@@ -928,6 +1093,7 @@ CMakeFiles\football_manager.dir\Tournament.cpp.obj: "D:\qt projects\football_man
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cstdio \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cstdlib \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cstring \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\ctime \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cwchar \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\debug\assertions.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\debug\debug.h \
@@ -945,6 +1111,8 @@ CMakeFiles\football_manager.dir\Tournament.cpp.obj: "D:\qt projects\football_man
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\iosfwd \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\iterator \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\limits \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\list \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\map \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\memory \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\new \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\numeric \
@@ -955,6 +1123,7 @@ CMakeFiles\football_manager.dir\Tournament.cpp.obj: "D:\qt projects\football_man
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\pstl\glue_numeric_defs.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\pstl\pstl_config.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\random \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\ratio \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\stdexcept \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\stdlib.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\streambuf \
@@ -1045,9 +1214,14 @@ CMakeFiles\football_manager.dir\Tournament.cpp.obj: "D:\qt projects\football_man
   D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\vadefs.h \
   D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\wchar.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\QList \
+  D:\qt\Tools\mingw_64_2\include\QtCore\QMap \
   D:\qt\Tools\mingw_64_2\include\QtCore\QRandomGenerator \
+  D:\qt\Tools\mingw_64_2\include\QtCore\QSet \
   D:\qt\Tools\mingw_64_2\include\QtCore\QString \
   D:\qt\Tools\mingw_64_2\include\QtCore\QStringList \
+  D:\qt\Tools\mingw_64_2\include\QtCore\QVariant \
+  D:\qt\Tools\mingw_64_2\include\QtCore\QVariantMap \
+  D:\qt\Tools\mingw_64_2\include\QtCore\q20memory.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\q20type_traits.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qalgorithms.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qanystringview.h \
@@ -1058,41 +1232,67 @@ CMakeFiles\football_manager.dir\Tournament.cpp.obj: "D:\qt projects\football_man
   D:\qt\Tools\mingw_64_2\include\QtCore\qatomic.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qatomic_cxx11.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qbasicatomic.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qbindingstorage.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qbytearray.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qbytearrayalgorithms.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qbytearraylist.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qbytearrayview.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qchar.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qcompare.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qcompare_impl.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qcompilerdetection.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qconfig.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qconstructormacros.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qcontainerfwd.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qcontainerinfo.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qcontainertools_impl.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qcontiguouscache.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qdarwinhelpers.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qdatastream.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qdebug.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qexceptionhandling.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qflags.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qfloat16.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qforeach.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qfunctionpointer.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qgenericatomic.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qglobal.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qglobalstatic.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qhash.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qhashfunctions.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qiodevicebase.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qiterable.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qiterator.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qlist.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qlogging.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qmalloc.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qmap.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qmath.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qmetacontainer.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qmetatype.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qminmax.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qnamespace.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qnumeric.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qobject.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qobject_impl.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qobjectdefs.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qobjectdefs_impl.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qoverload.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qpair.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qprocessordetection.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qrandom.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qrefcount.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qscopedpointer.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qscopeguard.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qset.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qshareddata.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qshareddata_impl.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qsharedpointer.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qsharedpointer_impl.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qstring.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qstringalgorithms.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qstringbuilder.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qstringconverter_base.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qstringfwd.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qstringlist.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qstringliteral.h \
@@ -1102,12 +1302,14 @@ CMakeFiles\football_manager.dir\Tournament.cpp.obj: "D:\qt projects\football_man
   D:\qt\Tools\mingw_64_2\include\QtCore\qswap.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qsysinfo.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qsystemdetection.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qtaggedpointer.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtclasshelpermacros.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtconfigmacros.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtcore-config.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtcoreexports.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtdeprecationmarkers.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtenvironmentvariables.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qtextstream.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtmetamacros.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtnoop.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtpreprocessorsupport.h \
@@ -1119,6 +1321,9 @@ CMakeFiles\football_manager.dir\Tournament.cpp.obj: "D:\qt projects\football_man
   D:\qt\Tools\mingw_64_2\include\QtCore\qtypeinfo.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtypes.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qutf8stringview.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qvariant.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qvariantmap.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qvarlengtharray.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qversiontagging.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qxptype_traits.h \
   "D:\qt projects\football_manager\Match.h" \
@@ -1162,6 +1367,7 @@ CMakeFiles\football_manager.dir\Training.cpp.obj: "D:\qt projects\football_manag
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\hashtable_policy.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\invoke.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\ios_base.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\list.tcc \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\locale_classes.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\locale_classes.tcc \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\localefwd.h \
@@ -1193,11 +1399,15 @@ CMakeFiles\football_manager.dir\Training.cpp.obj: "D:\qt projects\football_manag
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_iterator.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_iterator_base_funcs.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_iterator_base_types.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_list.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_map.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_multimap.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_numeric.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_pair.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_raw_storage_iter.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_relops.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_tempbuf.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_tree.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_uninitialized.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_vector.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stream_iterator.h \
@@ -1212,6 +1422,7 @@ CMakeFiles\football_manager.dir\Training.cpp.obj: "D:\qt projects\football_manag
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\vector.tcc \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cctype \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cerrno \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\chrono \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\clocale \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cmath \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cstddef \
@@ -1219,6 +1430,7 @@ CMakeFiles\football_manager.dir\Training.cpp.obj: "D:\qt projects\football_manag
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cstdio \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cstdlib \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cstring \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\ctime \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cwchar \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\debug\assertions.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\debug\debug.h \
@@ -1236,6 +1448,8 @@ CMakeFiles\football_manager.dir\Training.cpp.obj: "D:\qt projects\football_manag
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\iosfwd \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\iterator \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\limits \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\list \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\map \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\memory \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\new \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\numeric \
@@ -1246,6 +1460,7 @@ CMakeFiles\football_manager.dir\Training.cpp.obj: "D:\qt projects\football_manag
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\pstl\glue_numeric_defs.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\pstl\pstl_config.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\random \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\ratio \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\stdexcept \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\stdlib.h \
   D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\streambuf \
@@ -1335,8 +1550,13 @@ CMakeFiles\football_manager.dir\Training.cpp.obj: "D:\qt projects\football_manag
   D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\time.h \
   D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\vadefs.h \
   D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\wchar.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\QMap \
   D:\qt\Tools\mingw_64_2\include\QtCore\QRandomGenerator \
+  D:\qt\Tools\mingw_64_2\include\QtCore\QSet \
   D:\qt\Tools\mingw_64_2\include\QtCore\QString \
+  D:\qt\Tools\mingw_64_2\include\QtCore\QVariant \
+  D:\qt\Tools\mingw_64_2\include\QtCore\QVariantMap \
+  D:\qt\Tools\mingw_64_2\include\QtCore\q20memory.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\q20type_traits.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qalgorithms.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qanystringview.h \
@@ -1347,50 +1567,84 @@ CMakeFiles\football_manager.dir\Training.cpp.obj: "D:\qt projects\football_manag
   D:\qt\Tools\mingw_64_2\include\QtCore\qatomic.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qatomic_cxx11.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qbasicatomic.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qbindingstorage.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qbytearray.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qbytearrayalgorithms.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qbytearraylist.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qbytearrayview.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qchar.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qcompare.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qcompare_impl.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qcompilerdetection.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qconfig.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qconstructormacros.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qcontainerfwd.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qcontainerinfo.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qcontainertools_impl.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qcontiguouscache.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qdarwinhelpers.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qdatastream.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qdebug.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qexceptionhandling.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qflags.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qfloat16.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qforeach.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qfunctionpointer.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qgenericatomic.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qglobal.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qglobalstatic.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qhash.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qhashfunctions.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qiodevicebase.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qiterable.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qiterator.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qlist.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qlogging.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qmalloc.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qmap.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qmath.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qmetacontainer.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qmetatype.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qminmax.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qnamespace.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qnumeric.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qobject.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qobject_impl.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qobjectdefs.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qobjectdefs_impl.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qoverload.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qpair.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qprocessordetection.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qrandom.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qrefcount.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qscopedpointer.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qscopeguard.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qset.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qshareddata.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qshareddata_impl.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qsharedpointer.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qsharedpointer_impl.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qstring.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qstringalgorithms.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qstringbuilder.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qstringconverter_base.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qstringfwd.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qstringlist.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qstringliteral.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qstringmatcher.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qstringtokenizer.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qstringview.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qswap.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qsysinfo.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qsystemdetection.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qtaggedpointer.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtclasshelpermacros.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtconfigmacros.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtcore-config.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtcoreexports.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtdeprecationmarkers.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtenvironmentvariables.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qtextstream.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtmetamacros.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtnoop.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtpreprocessorsupport.h \
@@ -1402,6 +1656,9 @@ CMakeFiles\football_manager.dir\Training.cpp.obj: "D:\qt projects\football_manag
   D:\qt\Tools\mingw_64_2\include\QtCore\qtypeinfo.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qtypes.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qutf8stringview.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qvariant.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qvariantmap.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qvarlengtharray.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qversiontagging.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qxptype_traits.h \
   "D:\qt projects\football_manager\Player.h" \
@@ -1625,9 +1882,12 @@ CMakeFiles\football_manager.dir\football_manager_autogen\mocs_compilation.cpp.ob
   D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\wchar.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\QList \
   D:\qt\Tools\mingw_64_2\include\QtCore\QMap \
+  D:\qt\Tools\mingw_64_2\include\QtCore\QSet \
   D:\qt\Tools\mingw_64_2\include\QtCore\QString \
   D:\qt\Tools\mingw_64_2\include\QtCore\QStringList \
   D:\qt\Tools\mingw_64_2\include\QtCore\QTimer \
+  D:\qt\Tools\mingw_64_2\include\QtCore\QVariant \
+  D:\qt\Tools\mingw_64_2\include\QtCore\QVariantMap \
   D:\qt\Tools\mingw_64_2\include\QtCore\q20memory.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\q20type_traits.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qabstractitemmodel.h \
@@ -1740,6 +2000,7 @@ CMakeFiles\football_manager.dir\football_manager_autogen\mocs_compilation.cpp.ob
   D:\qt\Tools\mingw_64_2\include\QtCore\qtypes.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qutf8stringview.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qvariant.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qvariantmap.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qvarlengtharray.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qversiontagging.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qxptype_traits.h \
@@ -2006,9 +2267,12 @@ CMakeFiles\football_manager.dir\main.cpp.obj: "D:\qt projects\football_manager\m
   D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\wchar.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\QList \
   D:\qt\Tools\mingw_64_2\include\QtCore\QMap \
+  D:\qt\Tools\mingw_64_2\include\QtCore\QSet \
   D:\qt\Tools\mingw_64_2\include\QtCore\QString \
   D:\qt\Tools\mingw_64_2\include\QtCore\QStringList \
   D:\qt\Tools\mingw_64_2\include\QtCore\QTimer \
+  D:\qt\Tools\mingw_64_2\include\QtCore\QVariant \
+  D:\qt\Tools\mingw_64_2\include\QtCore\QVariantMap \
   D:\qt\Tools\mingw_64_2\include\QtCore\q20memory.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\q20type_traits.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qabstractitemmodel.h \
@@ -2125,6 +2389,7 @@ CMakeFiles\football_manager.dir\main.cpp.obj: "D:\qt projects\football_manager\m
   D:\qt\Tools\mingw_64_2\include\QtCore\qtypes.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qutf8stringview.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qvariant.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qvariantmap.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qvarlengtharray.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qversiontagging.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qxptype_traits.h \
@@ -2410,10 +2675,12 @@ CMakeFiles\football_manager.dir\mainwindow.cpp.obj: "D:\qt projects\football_man
   D:\qt\Tools\mingw_64_2\include\QtCore\QList \
   D:\qt\Tools\mingw_64_2\include\QtCore\QMap \
   D:\qt\Tools\mingw_64_2\include\QtCore\QRandomGenerator \
+  D:\qt\Tools\mingw_64_2\include\QtCore\QSet \
   D:\qt\Tools\mingw_64_2\include\QtCore\QString \
   D:\qt\Tools\mingw_64_2\include\QtCore\QStringList \
   D:\qt\Tools\mingw_64_2\include\QtCore\QTimer \
   D:\qt\Tools\mingw_64_2\include\QtCore\QVariant \
+  D:\qt\Tools\mingw_64_2\include\QtCore\QVariantMap \
   D:\qt\Tools\mingw_64_2\include\QtCore\QtGlobal \
   D:\qt\Tools\mingw_64_2\include\QtCore\q20memory.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\q20type_traits.h \
@@ -2534,6 +2801,7 @@ CMakeFiles\football_manager.dir\mainwindow.cpp.obj: "D:\qt projects\football_man
   D:\qt\Tools\mingw_64_2\include\QtCore\qurl.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qutf8stringview.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qvariant.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qvariantmap.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qvarlengtharray.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qversiontagging.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qxptype_traits.h \
@@ -6998,6 +7266,562 @@ football_manager_autogen\timestamp: "D:\qt projects\football_manager\CMakeLists.
   D:\qt\Tools\mingw_64_2\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateConfigVersion.cmake \
   D:\qt\Tools\mingw_64_2\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateConfigVersionImpl.cmake \
   D:\qt\Tools\mingw_64_2\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateTargets.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateVersionlessTargets.cmake \
+  "D:\qt projects\football_manager\CMakeLists.txt" \
+  "D:\qt projects\football_manager\Match.cpp" \
+  "D:\qt projects\football_manager\Match.h" \
+  "D:\qt projects\football_manager\Player.cpp" \
+  "D:\qt projects\football_manager\Player.h" \
+  "D:\qt projects\football_manager\Team.cpp" \
+  "D:\qt projects\football_manager\Team.h" \
+  "D:\qt projects\football_manager\Tournament.cpp" \
+  "D:\qt projects\football_manager\Tournament.h" \
+  "D:\qt projects\football_manager\Training.cpp" \
+  "D:\qt projects\football_manager\Training.h" \
+  .qtc\package-manager\auto-setup.cmake \
+  CMakeFiles\3.29.3\CMakeCXXCompiler.cmake \
+  CMakeFiles\3.29.3\CMakeRCCompiler.cmake \
+  CMakeFiles\3.29.3\CMakeSystem.cmake \
+  football_manager_autogen\moc_predefs.h \
+  "D:\qt projects\football_manager\main.cpp" \
+  "D:\qt projects\football_manager\mainwindow.cpp" \
+  "D:\qt projects\football_manager\mainwindow.h" \
+  "D:\qt projects\football_manager\mainwindow.ui" \
+  D:\qt\Tools\CMake_64\bin\cmake.exe \
+  D:\qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeCXXInformation.cmake \
+  D:\qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake \
+  D:\qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake \
+  D:\qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeFindDependencyMacro.cmake \
+  D:\qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeGenericSystem.cmake \
+  D:\qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake \
+  D:\qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake \
+  D:\qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeRCInformation.cmake \
+  D:\qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake \
+  D:\qt\Tools\CMake_64\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake \
+  D:\qt\Tools\CMake_64\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake \
+  D:\qt\Tools\CMake_64\share\cmake-3.29\Modules\CheckCXXSourceCompiles.cmake \
+  D:\qt\Tools\CMake_64\share\cmake-3.29\Modules\CheckIncludeFileCXX.cmake \
+  D:\qt\Tools\CMake_64\share\cmake-3.29\Modules\CheckLibraryExists.cmake \
+  D:\qt\Tools\CMake_64\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake \
+  D:\qt\Tools\CMake_64\share\cmake-3.29\Modules\Compiler\GNU-CXX.cmake \
+  D:\qt\Tools\CMake_64\share\cmake-3.29\Modules\Compiler\GNU.cmake \
+  D:\qt\Tools\CMake_64\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake \
+  D:\qt\Tools\CMake_64\share\cmake-3.29\Modules\FindPackageMessage.cmake \
+  D:\qt\Tools\CMake_64\share\cmake-3.29\Modules\FindThreads.cmake \
+  D:\qt\Tools\CMake_64\share\cmake-3.29\Modules\FindVulkan.cmake \
+  D:\qt\Tools\CMake_64\share\cmake-3.29\Modules\GNUInstallDirs.cmake \
+  D:\qt\Tools\CMake_64\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake \
+  D:\qt\Tools\CMake_64\share\cmake-3.29\Modules\Internal\CheckFlagCommonConfig.cmake \
+  D:\qt\Tools\CMake_64\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake \
+  D:\qt\Tools\CMake_64\share\cmake-3.29\Modules\Platform\Windows-GNU-CXX-ABI.cmake \
+  D:\qt\Tools\CMake_64\share\cmake-3.29\Modules\Platform\Windows-GNU-CXX.cmake \
+  D:\qt\Tools\CMake_64\share\cmake-3.29\Modules\Platform\Windows-GNU.cmake \
+  D:\qt\Tools\CMake_64\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake \
+  D:\qt\Tools\CMake_64\share\cmake-3.29\Modules\Platform\Windows-windres.cmake \
+  D:\qt\Tools\CMake_64\share\cmake-3.29\Modules\Platform\Windows.cmake \
+  D:\qt\Tools\CMake_64\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include-fixed\limits.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include-fixed\syslimits.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\algorithm \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\array \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\atomic \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\backward\auto_ptr.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\backward\binders.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bit \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\algorithmfwd.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\align.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\alloc_traits.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\allocated_ptr.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\allocator.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\atomic_base.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\atomic_lockfree_defines.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\basic_string.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\basic_string.tcc \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\char_traits.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\charconv.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\concept_check.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\cpp_type_traits.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\cxxabi_forced.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\cxxabi_init_exception.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\enable_special_members.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\erase_if.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\exception.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\exception_defines.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\exception_ptr.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\functexcept.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\functional_hash.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\hash_bytes.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\hashtable.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\hashtable_policy.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\invoke.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\ios_base.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\list.tcc \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\locale_classes.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\locale_classes.tcc \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\localefwd.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\memoryfwd.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\move.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\nested_exception.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\node_handle.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\ostream_insert.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\parse_numbers.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\postypes.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\predefined_ops.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\ptr_traits.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\range_access.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\refwrap.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\shared_ptr.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\shared_ptr_atomic.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\shared_ptr_base.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\specfun.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\std_abs.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\std_function.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_algo.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_algobase.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_bvector.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_construct.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_function.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_heap.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_iterator.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_iterator_base_funcs.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_iterator_base_types.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_list.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_map.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_multimap.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_numeric.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_pair.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_raw_storage_iter.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_relops.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_tempbuf.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_tree.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_uninitialized.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_vector.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stream_iterator.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\streambuf.tcc \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\streambuf_iterator.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\string_view.tcc \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stringfwd.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\uniform_int_dist.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\unique_ptr.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\unordered_map.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\uses_allocator.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\vector.tcc \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cctype \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cerrno \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\chrono \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\clocale \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cmath \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cstddef \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cstdint \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cstdio \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cstdlib \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cstring \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\ctime \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cwchar \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\debug\assertions.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\debug\debug.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\exception \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\ext\aligned_buffer.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\ext\alloc_traits.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\ext\atomicity.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\ext\concurrence.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\ext\new_allocator.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\ext\numeric_traits.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\ext\string_conversions.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\ext\type_traits.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\functional \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\initializer_list \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\iosfwd \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\iterator \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\limits \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\list \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\map \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\memory \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\new \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\numeric \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\optional \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\pstl\execution_defs.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\pstl\glue_algorithm_defs.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\pstl\glue_memory_defs.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\pstl\glue_numeric_defs.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\ratio \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\stdexcept \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\stdlib.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\streambuf \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\string \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\string_view \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\system_error \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\tr1\bessel_function.tcc \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\tr1\beta_function.tcc \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\tr1\ell_integral.tcc \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\tr1\exp_integral.tcc \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\tr1\gamma.tcc \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\tr1\hypergeometric.tcc \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\tr1\legendre_function.tcc \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\tr1\modified_bessel_func.tcc \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\tr1\poly_hermite.tcc \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\tr1\poly_laguerre.tcc \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\tr1\riemann_zeta.tcc \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\tr1\special_function_util.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\tuple \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\type_traits \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\typeinfo \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\unordered_map \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\utility \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\variant \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\vector \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\x86_64-w64-mingw32\bits\atomic_word.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\x86_64-w64-mingw32\bits\c++allocator.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\x86_64-w64-mingw32\bits\c++config.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\x86_64-w64-mingw32\bits\c++locale.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\x86_64-w64-mingw32\bits\cpu_defines.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\x86_64-w64-mingw32\bits\error_constants.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\x86_64-w64-mingw32\bits\gthr-default.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\x86_64-w64-mingw32\bits\gthr.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\x86_64-w64-mingw32\bits\os_defines.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\stdarg.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\stdbool.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\stddef.h \
+  D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\stdint.h \
+  D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\_mingw.h \
+  D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\_mingw_mac.h \
+  D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\_mingw_off_t.h \
+  D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\_mingw_secapi.h \
+  D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\_mingw_stat64.h \
+  D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\_timeval.h \
+  D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\assert.h \
+  D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\corecrt.h \
+  D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\corecrt_startup.h \
+  D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\corecrt_stdio_config.h \
+  D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\corecrt_wstdlib.h \
+  D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\crtdefs.h \
+  D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\ctype.h \
+  D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\errno.h \
+  D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\locale.h \
+  D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\process.h \
+  D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\pthread.h \
+  D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\pthread_compat.h \
+  D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\pthread_signal.h \
+  D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\pthread_time.h \
+  D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\pthread_unistd.h \
+  D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\sdks\_mingw_ddk.h \
+  D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\sec_api\stdio_s.h \
+  D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\sec_api\string_s.h \
+  D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\sec_api\sys\timeb_s.h \
+  D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\sec_api\wchar_s.h \
+  D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\signal.h \
+  D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\stdio.h \
+  D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\string.h \
+  D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\swprintf.inl \
+  D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\sys\timeb.h \
+  D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\sys\types.h \
+  D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\time.h \
+  D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\vadefs.h \
+  D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\wchar.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\QList \
+  D:\qt\Tools\mingw_64_2\include\QtCore\QMap \
+  D:\qt\Tools\mingw_64_2\include\QtCore\QSet \
+  D:\qt\Tools\mingw_64_2\include\QtCore\QString \
+  D:\qt\Tools\mingw_64_2\include\QtCore\QStringList \
+  D:\qt\Tools\mingw_64_2\include\QtCore\QTimer \
+  D:\qt\Tools\mingw_64_2\include\QtCore\QVariant \
+  D:\qt\Tools\mingw_64_2\include\QtCore\QVariantMap \
+  D:\qt\Tools\mingw_64_2\include\QtCore\q20memory.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\q20type_traits.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qabstractitemmodel.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qalgorithms.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qanystringview.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qarraydata.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qarraydataops.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qarraydatapointer.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qassert.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qatomic.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qatomic_cxx11.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qbasicatomic.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qbasictimer.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qbindingstorage.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qbytearray.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qbytearrayalgorithms.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qbytearraylist.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qbytearrayview.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qchar.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qcompare.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qcompare_impl.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qcompilerdetection.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qconfig.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qconstructormacros.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qcontainerfwd.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qcontainerinfo.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qcontainertools_impl.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qcontiguouscache.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qdarwinhelpers.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qdatastream.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qdebug.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qexceptionhandling.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qflags.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qfloat16.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qforeach.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qfunctionpointer.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qgenericatomic.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qglobal.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qglobalstatic.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qhash.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qhashfunctions.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qiodevicebase.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qitemselectionmodel.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qiterable.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qiterator.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qline.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qlist.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qlocale.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qlogging.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qmalloc.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qmap.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qmargins.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qmath.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qmetacontainer.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qmetatype.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qminmax.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qnamespace.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qnumeric.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qobject.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qobject_impl.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qobjectdefs.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qobjectdefs_impl.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qoverload.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qpair.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qpoint.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qprocessordetection.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qrect.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qrefcount.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qregularexpression.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qscopedpointer.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qscopeguard.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qset.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qshareddata.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qshareddata_impl.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qsharedpointer.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qsharedpointer_impl.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qsize.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qstring.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qstringalgorithms.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qstringbuilder.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qstringconverter_base.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qstringfwd.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qstringlist.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qstringliteral.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qstringmatcher.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qstringtokenizer.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qstringview.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qswap.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qsysinfo.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qsystemdetection.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qtaggedpointer.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qtclasshelpermacros.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qtconfigmacros.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qtcore-config.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qtcoreexports.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qtdeprecationmarkers.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qtenvironmentvariables.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qtextstream.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qtimer.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qtmetamacros.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qtnoop.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qtpreprocessorsupport.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qtresource.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qttranslation.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qttypetraits.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qtversion.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qtversionchecks.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qtypeinfo.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qtypes.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qutf8stringview.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qvariant.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qvariantmap.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qvarlengtharray.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qversiontagging.h \
+  D:\qt\Tools\mingw_64_2\include\QtCore\qxptype_traits.h \
+  D:\qt\Tools\mingw_64_2\include\QtGui\qaction.h \
+  D:\qt\Tools\mingw_64_2\include\QtGui\qbitmap.h \
+  D:\qt\Tools\mingw_64_2\include\QtGui\qbrush.h \
+  D:\qt\Tools\mingw_64_2\include\QtGui\qcolor.h \
+  D:\qt\Tools\mingw_64_2\include\QtGui\qcursor.h \
+  D:\qt\Tools\mingw_64_2\include\QtGui\qfont.h \
+  D:\qt\Tools\mingw_64_2\include\QtGui\qfontinfo.h \
+  D:\qt\Tools\mingw_64_2\include\QtGui\qfontmetrics.h \
+  D:\qt\Tools\mingw_64_2\include\QtGui\qicon.h \
+  D:\qt\Tools\mingw_64_2\include\QtGui\qimage.h \
+  D:\qt\Tools\mingw_64_2\include\QtGui\qkeysequence.h \
+  D:\qt\Tools\mingw_64_2\include\QtGui\qpaintdevice.h \
+  D:\qt\Tools\mingw_64_2\include\QtGui\qpalette.h \
+  D:\qt\Tools\mingw_64_2\include\QtGui\qpixelformat.h \
+  D:\qt\Tools\mingw_64_2\include\QtGui\qpixmap.h \
+  D:\qt\Tools\mingw_64_2\include\QtGui\qpolygon.h \
+  D:\qt\Tools\mingw_64_2\include\QtGui\qregion.h \
+  D:\qt\Tools\mingw_64_2\include\QtGui\qrgb.h \
+  D:\qt\Tools\mingw_64_2\include\QtGui\qrgba64.h \
+  D:\qt\Tools\mingw_64_2\include\QtGui\qtgui-config.h \
+  D:\qt\Tools\mingw_64_2\include\QtGui\qtguiexports.h \
+  D:\qt\Tools\mingw_64_2\include\QtGui\qtguiglobal.h \
+  D:\qt\Tools\mingw_64_2\include\QtGui\qtransform.h \
+  D:\qt\Tools\mingw_64_2\include\QtGui\qvalidator.h \
+  D:\qt\Tools\mingw_64_2\include\QtGui\qwindowdefs.h \
+  D:\qt\Tools\mingw_64_2\include\QtGui\qwindowdefs_win.h \
+  D:\qt\Tools\mingw_64_2\include\QtWidgets\QListWidgetItem \
+  D:\qt\Tools\mingw_64_2\include\QtWidgets\QMainWindow \
+  D:\qt\Tools\mingw_64_2\include\QtWidgets\qabstractitemdelegate.h \
+  D:\qt\Tools\mingw_64_2\include\QtWidgets\qabstractitemview.h \
+  D:\qt\Tools\mingw_64_2\include\QtWidgets\qabstractscrollarea.h \
+  D:\qt\Tools\mingw_64_2\include\QtWidgets\qabstractslider.h \
+  D:\qt\Tools\mingw_64_2\include\QtWidgets\qabstractspinbox.h \
+  D:\qt\Tools\mingw_64_2\include\QtWidgets\qframe.h \
+  D:\qt\Tools\mingw_64_2\include\QtWidgets\qlistview.h \
+  D:\qt\Tools\mingw_64_2\include\QtWidgets\qlistwidget.h \
+  D:\qt\Tools\mingw_64_2\include\QtWidgets\qmainwindow.h \
+  D:\qt\Tools\mingw_64_2\include\QtWidgets\qrubberband.h \
+  D:\qt\Tools\mingw_64_2\include\QtWidgets\qsizepolicy.h \
+  D:\qt\Tools\mingw_64_2\include\QtWidgets\qslider.h \
+  D:\qt\Tools\mingw_64_2\include\QtWidgets\qstyle.h \
+  D:\qt\Tools\mingw_64_2\include\QtWidgets\qstyleoption.h \
+  D:\qt\Tools\mingw_64_2\include\QtWidgets\qtabbar.h \
+  D:\qt\Tools\mingw_64_2\include\QtWidgets\qtabwidget.h \
+  D:\qt\Tools\mingw_64_2\include\QtWidgets\qtwidgets-config.h \
+  D:\qt\Tools\mingw_64_2\include\QtWidgets\qtwidgetsexports.h \
+  D:\qt\Tools\mingw_64_2\include\QtWidgets\qtwidgetsglobal.h \
+  D:\qt\Tools\mingw_64_2\include\QtWidgets\qwidget.h \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6\FindWrapAtomic.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6\FindWrapVulkanHeaders.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6\Qt6Config.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6\Qt6ConfigExtras.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6\Qt6ConfigVersion.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6\Qt6ConfigVersionImpl.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6\Qt6Dependencies.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6\Qt6Targets.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6\Qt6VersionlessTargets.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6\QtFeature.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6\QtFeatureCommon.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6\QtPublicAppleHelpers.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6\QtPublicCMakeHelpers.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6\QtPublicCMakeVersionHelpers.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6\QtPublicDependencyHelpers.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6\QtPublicFinalizerHelpers.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6\QtPublicFindPackageHelpers.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6\QtPublicPluginHelpers.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6\QtPublicTargetHelpers.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6\QtPublicTestHelpers.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6\QtPublicToolHelpers.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6\QtPublicWalkLibsHelpers.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Core\Qt6CoreAdditionalTargetInfo.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Core\Qt6CoreConfig.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Core\Qt6CoreConfigExtras.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Core\Qt6CoreConfigVersion.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Core\Qt6CoreConfigVersionImpl.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Core\Qt6CoreDependencies.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Core\Qt6CoreMacros.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Core\Qt6CoreTargets-relwithdebinfo.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Core\Qt6CoreTargets.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Core\Qt6CoreVersionlessTargets.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Core\QtInstallPaths.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6CoreTools\Qt6CoreToolsAdditionalTargetInfo.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfig.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfigVersion.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfigVersionImpl.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6CoreTools\Qt6CoreToolsDependencies.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6CoreTools\Qt6CoreToolsTargets-relwithdebinfo.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6CoreTools\Qt6CoreToolsTargets.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6CoreTools\Qt6CoreToolsVersionlessTargets.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointMinGW32Target.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateAdditionalTargetInfo.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateConfig.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateConfigVersion.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateConfigVersionImpl.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateTargets-relwithdebinfo.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateTargets.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6EntryPointPrivate\Qt6EntryPointPrivateVersionlessTargets.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6GuiAdditionalTargetInfo.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6GuiConfig.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6GuiConfigVersion.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6GuiConfigVersionImpl.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6GuiDependencies.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6GuiPlugins.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6GuiTargets-relwithdebinfo.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6GuiTargets.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6GuiVersionlessTargets.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QGifPluginAdditionalTargetInfo.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QGifPluginConfig.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QGifPluginTargets-relwithdebinfo.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QGifPluginTargets.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QICOPluginAdditionalTargetInfo.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QICOPluginConfig.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QICOPluginTargets-relwithdebinfo.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QICOPluginTargets.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QJpegPluginAdditionalTargetInfo.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QJpegPluginConfig.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QJpegPluginTargets-relwithdebinfo.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QJpegPluginTargets.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QMinimalIntegrationPluginConfig.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QMinimalIntegrationPluginTargets.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QOffscreenIntegrationPluginConfig.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QOffscreenIntegrationPluginTargets.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QSvgIconPluginAdditionalTargetInfo.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QSvgIconPluginConfig.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QSvgIconPluginTargets-relwithdebinfo.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QSvgIconPluginTargets.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QSvgPluginAdditionalTargetInfo.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QSvgPluginConfig.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QSvgPluginTargets-relwithdebinfo.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QSvgPluginTargets.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QTuioTouchPluginAdditionalTargetInfo.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QTuioTouchPluginConfig.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QTuioTouchPluginTargets.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QWindowsDirect2DIntegrationPluginAdditionalTargetInfo.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QWindowsDirect2DIntegrationPluginConfig.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QWindowsDirect2DIntegrationPluginTargets-relwithdebinfo.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QWindowsDirect2DIntegrationPluginTargets.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QWindowsIntegrationPluginAdditionalTargetInfo.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QWindowsIntegrationPluginConfig.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QWindowsIntegrationPluginTargets-relwithdebinfo.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QWindowsIntegrationPluginTargets.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6GuiTools\Qt6GuiToolsAdditionalTargetInfo.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6GuiTools\Qt6GuiToolsConfig.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6GuiTools\Qt6GuiToolsConfigVersion.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6GuiTools\Qt6GuiToolsConfigVersionImpl.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6GuiTools\Qt6GuiToolsDependencies.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6GuiTools\Qt6GuiToolsTargets-relwithdebinfo.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6GuiTools\Qt6GuiToolsTargets.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6GuiTools\Qt6GuiToolsVersionlessTargets.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Widgets\Qt6QWindowsVistaStylePluginAdditionalTargetInfo.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Widgets\Qt6QWindowsVistaStylePluginConfig.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Widgets\Qt6QWindowsVistaStylePluginTargets-relwithdebinfo.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Widgets\Qt6QWindowsVistaStylePluginTargets.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Widgets\Qt6WidgetsAdditionalTargetInfo.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Widgets\Qt6WidgetsConfig.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Widgets\Qt6WidgetsConfigVersion.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Widgets\Qt6WidgetsConfigVersionImpl.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Widgets\Qt6WidgetsDependencies.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Widgets\Qt6WidgetsMacros.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Widgets\Qt6WidgetsPlugins.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Widgets\Qt6WidgetsTargets-relwithdebinfo.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Widgets\Qt6WidgetsTargets.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Widgets\Qt6WidgetsVersionlessTargets.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsAdditionalTargetInfo.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsConfig.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsConfigVersion.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsConfigVersionImpl.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsDependencies.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsTargets.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsVersionlessTargets.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateAdditionalTargetInfo.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateConfig.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateConfigVersion.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateConfigVersionImpl.cmake \
+  D:\qt\Tools\mingw_64_2\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateTargets.cmake \
   D:\qt\Tools\mingw_64_2\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateVersionlessTargets.cmake
 
 
@@ -7016,12 +7840,6 @@ D:\qt\Tools\CMake_64\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmak
 "D:\qt projects\football_manager\Match.cpp":
 
 D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\variant:
-
-D:\qt\Tools\mingw_64_2\include\QtCore\qiterator.h:
-
-D:\qt\Tools\mingw_64_2\include\QtGui\qaction.h:
-
-D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_heap.h:
 
 D:\qt\Tools\mingw_64_2\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateConfigVersion.cmake:
 
@@ -7169,6 +7987,10 @@ D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\invo
 
 D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\iterator:
 
+D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake:
+
+D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\list.tcc:
+
 D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cstdint:
 
 D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\locale_classes.h:
@@ -7241,6 +8063,12 @@ D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\ext\align
 
 D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\std_abs.h:
 
+D:\qt\Tools\mingw_64_2\include\QtCore\qiterator.h:
+
+D:\qt\Tools\mingw_64_2\include\QtGui\qaction.h:
+
+D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_heap.h:
+
 D:\qt\Tools\mingw_64_2\include\QtCore\qline.h:
 
 D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_iterator.h:
@@ -7248,6 +8076,14 @@ D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_
 D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\iosfwd:
 
 D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_iterator_base_types.h:
+
+D:\qt\Tools\mingw_64_2\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfigVersionImpl.cmake:
+
+D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_list.h:
+
+D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_map.h:
+
+D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_multimap.h:
 
 D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_numeric.h:
 
@@ -7262,6 +8098,10 @@ D:\qt\Tools\mingw_64_2\include\QtCore\QTimer:
 D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_raw_storage_iter.h:
 
 D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_tempbuf.h:
+
+D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Widgets\Qt6QWindowsVistaStylePluginAdditionalTargetInfo.cmake:
+
+D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_tree.h:
 
 D:\qt\Tools\mingw_64_2\lib\cmake\Qt6\QtPublicWalkLibsHelpers.cmake:
 
@@ -7313,6 +8153,8 @@ D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\pthread.h:
 
 D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cerrno:
 
+D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\chrono:
+
 D:\qt\Tools\mingw_64_2\include\QtCore\qtconfigmacros.h:
 
 D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cmath:
@@ -7338,6 +8180,8 @@ D:\qt\Tools\mingw_64_2\lib\cmake\Qt6\QtFeature.cmake:
 D:\qt\Tools\mingw_64_2\lib\cmake\Qt6\QtPublicTestHelpers.cmake:
 
 D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cstring:
+
+D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\ctime:
 
 D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\cwchar:
 
@@ -7383,6 +8227,10 @@ D:\qt\Tools\mingw_64_2\lib\cmake\Qt6GuiTools\Qt6GuiToolsTargets.cmake:
 
 D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\limits:
 
+D:\qt\Tools\mingw_64_2\lib\cmake\Qt6\QtPublicAppleHelpers.cmake:
+
+D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\list:
+
 D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\memory:
 
 D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\optional:
@@ -7400,6 +8248,8 @@ D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\pstl\glue
 D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\pstl\pstl_config.h:
 
 D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\random:
+
+D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\ratio:
 
 D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\stdexcept:
 
@@ -7581,9 +8431,9 @@ D:\qt\Tools\mingw_64_2\lib\cmake\Qt6\QtPublicFinalizerHelpers.cmake:
 
 D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\crtdefs.h:
 
-"D:\qt projects\football_manager\Tournament.h":
-
 D:\qt\Tools\mingw_64_2\include\QtCore\qmath.h:
+
+"D:\qt projects\football_manager\Tournament.h":
 
 D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\ctype.h:
 
@@ -7651,9 +8501,9 @@ D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\sys\timeb.h:
 
 D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\sys\types.h:
 
-D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\time.h:
-
 D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Core\Qt6CoreConfigVersion.cmake:
+
+D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\time.h:
 
 D:\qt\Tools\mingw1120_64\x86_64-w64-mingw32\include\vadefs.h:
 
@@ -7661,7 +8511,13 @@ D:\qt\Tools\mingw_64_2\include\QtCore\qtmochelpers.h:
 
 D:\qt\Tools\mingw_64_2\include\QtCore\QList:
 
+D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6GuiAdditionalTargetInfo.cmake:
+
+D:\qt\Tools\mingw_64_2\include\QtCore\QMap:
+
 D:\qt\Tools\mingw_64_2\include\QtCore\QRandomGenerator:
+
+D:\qt\Tools\mingw_64_2\include\QtCore\QSet:
 
 D:\qt\Tools\mingw_64_2\include\QtCore\QString:
 
@@ -7670,6 +8526,14 @@ D:\qt\Tools\mingw_64_2\include\QtGui\qrgb.h:
 D:\qt\Tools\mingw_64_2\include\QtWidgets\QTabWidget:
 
 D:\qt\Tools\mingw_64_2\include\QtCore\QStringList:
+
+D:\qt\Tools\mingw_64_2\include\QtCore\QVariant:
+
+D:\qt\Tools\mingw_64_2\include\QtCore\QVariantMap:
+
+D:\qt\Tools\mingw_64_2\include\QtCore\q20memory.h:
+
+"D:\qt projects\football_manager\Training.h":
 
 D:\qt\Tools\mingw_64_2\include\QtCore\q20type_traits.h:
 
@@ -7701,6 +8565,12 @@ D:\qt\Tools\mingw_64_2\include\QtCore\qnamespace.h:
 
 D:\qt\Tools\mingw_64_2\include\QtCore\qbasicatomic.h:
 
+D:\qt\Tools\CMake_64\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake:
+
+D:\qt\Tools\mingw_64_2\include\QtCore\qbindingstorage.h:
+
+D:\qt\Tools\mingw_64_2\include\QtGui\qfontmetrics.h:
+
 D:\qt\Tools\mingw_64_2\include\QtCore\qbytearray.h:
 
 D:\qt\Tools\mingw_64_2\include\QtCore\qbytearrayalgorithms.h:
@@ -7708,6 +8578,10 @@ D:\qt\Tools\mingw_64_2\include\QtCore\qbytearrayalgorithms.h:
 D:\qt\Tools\mingw_64_2\include\QtCore\qbytearraylist.h:
 
 D:\qt\Tools\mingw_64_2\include\QtCore\qbytearrayview.h:
+
+D:\qt\Tools\mingw_64_2\lib\cmake\Qt6\QtPublicDependencyHelpers.cmake:
+
+D:\qt\Tools\mingw_64_2\include\QtCore\qcompare.h:
 
 D:\qt\Tools\mingw_64_2\include\QtCore\qcompare_impl.h:
 
@@ -7727,6 +8601,14 @@ D:\qt\Tools\mingw_64_2\include\QtCore\qcontainerfwd.h:
 
 D:\qt\Tools\mingw_64_2\include\QtCore\qtcore-config.h:
 
+D:\qt\Tools\mingw_64_2\lib\cmake\Qt6\QtPublicFindPackageHelpers.cmake:
+
+D:\qt\Tools\mingw_64_2\include\QtCore\qcontainerinfo.h:
+
+D:\qt\Tools\mingw_64_2\include\QtCore\qcontiguouscache.h:
+
+D:\qt\Tools\mingw_64_2\include\QtCore\qdatastream.h:
+
 D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6GuiTargets.cmake:
 
 D:\qt\Tools\mingw_64_2\include\QtCore\qexceptionhandling.h:
@@ -7735,13 +8617,15 @@ D:\qt\Tools\CMake_64\share\cmake-3.29\Modules\Platform\Windows-GNU-CXX-ABI.cmake
 
 D:\qt\Tools\mingw_64_2\include\QtCore\qflags.h:
 
+D:\qt\Tools\mingw_64_2\include\QtCore\qfloat16.h:
+
 D:\qt\Tools\mingw_64_2\include\QtCore\qforeach.h:
 
 D:\qt\Tools\mingw_64_2\include\QtCore\qtimer.h:
 
-D:\qt\Tools\mingw_64_2\include\QtCore\qvariantmap.h:
-
 D:\qt\Tools\mingw_64_2\include\QtCore\qglobalstatic.h:
+
+D:\qt\Tools\mingw_64_2\include\QtCore\qvariantmap.h:
 
 D:\qt\Tools\mingw_64_2\include\QtCore\qhashfunctions.h:
 
@@ -7751,17 +8635,41 @@ D:\qt\Tools\mingw_64_2\include\QtCore\qlogging.h:
 
 D:\qt\Tools\mingw_64_2\include\QtCore\qmalloc.h:
 
+D:\qt\Tools\mingw_64_2\include\QtCore\qmetacontainer.h:
+
 D:\qt\Tools\mingw_64_2\include\QtCore\qobjectdefs_impl.h:
 
 D:\qt\Tools\mingw_64_2\include\QtCore\qminmax.h:
 
 D:\qt\Tools\mingw_64_2\include\QtCore\qnumeric.h:
 
+D:\qt\Tools\mingw_64_2\include\QtCore\qobject.h:
+
+D:\qt\Tools\mingw_64_2\include\QtCore\qobject_impl.h:
+
 D:\qt\Tools\mingw_64_2\include\QtCore\qpair.h:
 
 D:\qt\Tools\mingw_64_2\include\QtCore\qrandom.h:
 
 D:\qt\Tools\mingw_64_2\include\QtCore\qrefcount.h:
+
+D:\qt\Tools\mingw_64_2\include\QtWidgets\qcombobox.h:
+
+D:\qt\Tools\mingw_64_2\include\QtWidgets\qstatusbar.h:
+
+D:\qt\Tools\mingw_64_2\include\QtCore\qscopeguard.h:
+
+D:\qt\Tools\mingw_64_2\include\QtCore\qset.h:
+
+football_manager_autogen\include\ui_mainwindow.h:
+
+D:\qt\Tools\mingw_64_2\include\QtCore\qshareddata_impl.h:
+
+D:\qt\Tools\mingw_64_2\include\QtWidgets\QLabel:
+
+D:\qt\Tools\mingw_64_2\include\QtCore\qsharedpointer.h:
+
+D:\qt\Tools\mingw_64_2\include\QtCore\qsharedpointer_impl.h:
 
 D:\qt\Tools\mingw_64_2\include\QtCore\qstringalgorithms.h:
 
@@ -7783,9 +8691,13 @@ D:\qt\Tools\mingw_64_2\lib\cmake\Qt6WidgetsTools\Qt6WidgetsToolsAdditionalTarget
 
 D:\qt\Tools\mingw_64_2\include\QtCore\qstringview.h:
 
+D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Core\Qt6CoreDependencies.cmake:
+
 D:\qt\Tools\mingw_64_2\include\QtCore\qsysinfo.h:
 
-D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Core\Qt6CoreDependencies.cmake:
+D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QWindowsDirect2DIntegrationPluginConfig.cmake:
+
+D:\qt\Tools\mingw_64_2\include\QtCore\qtaggedpointer.h:
 
 D:\qt\Tools\mingw_64_2\include\QtCore\qtcoreexports.h:
 
@@ -7811,6 +8723,8 @@ D:\qt\Tools\mingw_64_2\include\QtCore\qtypes.h:
 
 D:\qt\Tools\mingw_64_2\include\QtCore\qutf8stringview.h:
 
+D:\qt\Tools\mingw_64_2\include\QtCore\qvarlengtharray.h:
+
 "D:\qt projects\football_manager\Player.h":
 
 "D:\qt projects\football_manager\Team.h":
@@ -7825,107 +8739,23 @@ D:\qt\Tools\CMake_64\share\cmake-3.29\Modules\Platform\Windows-GNU.cmake:
 
 "D:\qt projects\football_manager\Tournament.cpp":
 
-"D:\qt projects\football_manager\Training.h":
-
-D:\qt\Tools\mingw_64_2\include\QtCore\q20memory.h:
-
 D:\qt\Tools\mingw_64_2\lib\cmake\Qt6\QtPublicCMakeHelpers.cmake:
 
 football_manager_autogen\mocs_compilation.cpp:
 
 "D:\qt projects\football_manager\mainwindow.h":
 
-D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake:
-
-D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\list.tcc:
-
-D:\qt\Tools\mingw_64_2\lib\cmake\Qt6CoreTools\Qt6CoreToolsConfigVersionImpl.cmake:
-
-D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_list.h:
-
-D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_map.h:
-
-D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_multimap.h:
-
-D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Widgets\Qt6QWindowsVistaStylePluginAdditionalTargetInfo.cmake:
-
-D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\bits\stl_tree.h:
-
-D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\chrono:
-
-D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\ctime:
-
-D:\qt\Tools\mingw_64_2\lib\cmake\Qt6\QtPublicAppleHelpers.cmake:
-
-D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\list:
-
-D:\qt\Tools\mingw1120_64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\c++\ratio:
-
-D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6GuiAdditionalTargetInfo.cmake:
-
-D:\qt\Tools\mingw_64_2\include\QtCore\QMap:
-
 D:\qt\Tools\mingw_64_2\include\QtCore\qbasictimer.h:
 
 D:\qt\Tools\mingw_64_2\lib\cmake\Qt6\FindWrapVulkanHeaders.cmake:
-
-D:\qt\Tools\CMake_64\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake:
-
-D:\qt\Tools\mingw_64_2\include\QtCore\qbindingstorage.h:
-
-D:\qt\Tools\mingw_64_2\include\QtGui\qfontmetrics.h:
-
-D:\qt\Tools\mingw_64_2\lib\cmake\Qt6\QtPublicDependencyHelpers.cmake:
-
-D:\qt\Tools\mingw_64_2\include\QtCore\qcompare.h:
-
-D:\qt\Tools\mingw_64_2\lib\cmake\Qt6\QtPublicFindPackageHelpers.cmake:
-
-D:\qt\Tools\mingw_64_2\include\QtCore\qcontainerinfo.h:
-
-D:\qt\Tools\mingw_64_2\include\QtCore\qcontiguouscache.h:
-
-D:\qt\Tools\mingw_64_2\include\QtCore\qdatastream.h:
-
-D:\qt\Tools\mingw_64_2\include\QtCore\qfloat16.h:
 
 .qtc\package-manager\auto-setup.cmake:
 
 D:\qt\Tools\mingw_64_2\include\QtCore\qmargins.h:
 
-D:\qt\Tools\mingw_64_2\include\QtCore\qmetacontainer.h:
-
-D:\qt\Tools\mingw_64_2\include\QtCore\qobject.h:
-
-D:\qt\Tools\mingw_64_2\include\QtCore\qobject_impl.h:
-
 D:\qt\Tools\mingw_64_2\include\QtCore\qrect.h:
 
-D:\qt\Tools\mingw_64_2\include\QtWidgets\qcombobox.h:
-
-D:\qt\Tools\mingw_64_2\include\QtWidgets\qstatusbar.h:
-
-D:\qt\Tools\mingw_64_2\include\QtCore\qscopeguard.h:
-
-D:\qt\Tools\mingw_64_2\include\QtCore\qset.h:
-
-football_manager_autogen\include\ui_mainwindow.h:
-
-D:\qt\Tools\mingw_64_2\include\QtCore\qshareddata_impl.h:
-
-D:\qt\Tools\mingw_64_2\include\QtWidgets\QLabel:
-
-D:\qt\Tools\mingw_64_2\include\QtCore\qsharedpointer.h:
-
-D:\qt\Tools\mingw_64_2\include\QtCore\qsharedpointer_impl.h:
-
 D:\qt\Tools\mingw_64_2\include\QtCore\qsize.h:
-
-D:\qt\Tools\mingw_64_2\lib\cmake\Qt6Gui\Qt6QWindowsDirect2DIntegrationPluginConfig.cmake:
-
-D:\qt\Tools\mingw_64_2\include\QtCore\qtaggedpointer.h:
-
-D:\qt\Tools\mingw_64_2\include\QtCore\qvarlengtharray.h:
 
 D:\qt\Tools\mingw_64_2\include\QtGui\qbitmap.h:
 
@@ -8032,8 +8862,6 @@ D:\qt\Tools\mingw_64_2\lib\cmake\Qt6GuiTools\Qt6GuiToolsConfigVersion.cmake:
 D:\qt\Tools\mingw_64_2\include\QtWidgets\qapplication.h:
 
 "D:\qt projects\football_manager\mainwindow.cpp":
-
-D:\qt\Tools\mingw_64_2\include\QtCore\QVariant:
 
 D:\qt\Tools\mingw_64_2\include\QtGui\qpicture.h:
 
@@ -8238,7 +9066,3 @@ D:\qt\Tools\mingw_64_2\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateConfig.cmake:
 D:\qt\Tools\mingw_64_2\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateTargets.cmake:
 
 D:\qt\Tools\mingw_64_2\lib\cmake\Qt6ZlibPrivate\Qt6ZlibPrivateVersionlessTargets.cmake:
-
-D:\qt\Tools\mingw_64_2\include\QtCore\QSet:
-
-D:\qt\Tools\mingw_64_2\include\QtCore\QVariantMap:

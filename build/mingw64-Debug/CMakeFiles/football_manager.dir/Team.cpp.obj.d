@@ -326,4 +326,6 @@ CMakeFiles\football_manager.dir\Team.cpp.obj: \
  D:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime \
  D:/qt/Tools/mingw_64_2/include/QtCore/QString \
  D:/qt/Tools/mingw_64_2/include/QtCore/QSet \
- D:/qt/Tools/mingw_64_2/include/QtCore/qset.h
+ D:/qt/Tools/mingw_64_2/include/QtCore/qset.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/QTextStream \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qtextstream.h

@@ -1,62 +1,72 @@
 #include "Team.h"
+#include <QString>
+#include <QTextStream>
 
 Team::Team(const QString &name,
            int mood,
-           int attack,
-           int defense,
-           const QString &trainer,
-           const QString &stadium,
+           int trainerAbility,
            int budget)
     : m_name(name),
     m_mood(mood),
-    m_attack(attack),
-    m_defense(defense),
-    m_trainer(trainer),
-    m_stadium(stadium),
+    m_trainerAbility(trainerAbility),
     m_budget(budget)
 {}
 
 QString Team::getName() const { return m_name; }
 int Team::getMood() const { return m_mood; }
-int Team::getAttack() const { return m_attack; }
-int Team::getDefense() const { return m_defense; }
-QString Team::getTrainer() const { return m_trainer; }
-QString Team::getStadium() const { return m_stadium; }
+int Team::getTrainerAbility() const { return m_trainerAbility; }
 int Team::getBudget() const { return m_budget; }
 
 QList<Player*> Team::getPlayers() const { return m_players; }
 void Team::addPlayer(Player* player) { m_players.append(player); }
 void Team::removePlayer(Player* player) { m_players.removeAll(player); }
 
-int Team::getAveragePlayerRating() const {
-    if (m_players.isEmpty())
-        return 0;
-    int total = 0;
+int Team::getAttackRating() const {
+    if(m_players.isEmpty()) return 0;
+    int sum = 0;
     for (Player* p : m_players)
-        total += (p->getSpeed() + p->getShotPrecision() + p->getEndurance() +
-                  p->getDribbling() + p->getPassPrecision() +
-                  p->getDefenseSkill() + p->getPhysicalStrength() +
-                  p->getCurrentForm()) / 8;
-    return total / m_players.size();
+        sum += (p->getDribbling() + p->getShot() + p->getPass()) / 3;
+    return sum / m_players.size();
+}
+
+int Team::getDefenseRating() const {
+    if(m_players.isEmpty()) return 0;
+    int sum = 0;
+    for (Player* p : m_players)
+        sum += (p->getDefense() + p->getEndurance() + p->getPhysicalStrength()) / 3;
+    return sum / m_players.size();
 }
 
 QString Team::getTeamDetails() const {
-    return QString("Команда: %1\nНастрой: %2\nАтака: %3\nЗащита: %4\nБюджет: %5\nТренер: %6\nСтадион: %7")
-        .arg(m_name)
-        .arg(m_mood)
-        .arg(m_attack)
-        .arg(m_defense)
-        .arg(m_budget)
-        .arg(m_trainer)
-        .arg(m_stadium);
+    QString details;
+    QTextStream stream(&details);
+    stream << "Команда: " << m_name << "\nНастрой: " << m_mood
+           << "\nАтака: " << getAttackRating()
+           << "\nЗащита: " << getDefenseRating()
+           << "\nБюджет: " << m_budget
+           << "\nТренер: " << m_trainerAbility
+           << "\nТрофеи: " << m_trophies;
+    return details;
 }
 
 void Team::increaseBudget(int amount) { m_budget += amount; }
-
 bool Team::decreaseBudget(int amount) {
-    if (m_budget >= amount) {
+    if(m_budget >= amount) {
         m_budget -= amount;
         return true;
     }
     return false;
 }
+
+void Team::awardTrophy(const QString &trophy) {
+    if(m_trophies.isEmpty())
+        m_trophies = trophy;
+    else
+        m_trophies += ", " + trophy;
+}
+
+void Team::resetTrophies() {
+    m_trophies.clear();
+}
+
+QString Team::getTrophies() const { return m_trophies; }

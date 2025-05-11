@@ -9,38 +9,34 @@ class Team {
 private:
     QString m_name;
     int m_mood;
-    int m_attack;
-    int m_defense;
-    QString m_trainer;
-    QString m_stadium;
+    int m_trainerAbility;
     int m_budget;
     QList<Player*> m_players;
+    QString m_trophies;
 public:
-    Team(const QString &name,
-         int mood,
-         int attack,
-         int defense,
-         const QString &trainer,
-         const QString &stadium,
-         int budget);
+    Team(const QString &name, int mood, int trainerAbility, int budget);
 
     QString getName() const;
     int getMood() const;
-    int getAttack() const;
-    int getDefense() const;
-    QString getTrainer() const;
-    QString getStadium() const;
+    int getTrainerAbility() const;
     int getBudget() const;
 
     QList<Player*> getPlayers() const;
     void addPlayer(Player* player);
     void removePlayer(Player* player);
 
-    int getAveragePlayerRating() const;
+    int getAttackRating() const;
+    int getDefenseRating() const;
+
     QString getTeamDetails() const;
 
     void increaseBudget(int amount);
     bool decreaseBudget(int amount);
+
+    void awardTrophy(const QString &trophy);
+    QString getTrophies() const;
+
+    void resetTrophies();
 };
 
 #endif
