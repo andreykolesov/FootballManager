@@ -189,6 +189,30 @@ football_manager_autogen\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\football_manager_autogen.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\football_manager_autogen.dir\build
 .PHONY : football_manager_autogen\fast
 
+League_Manager.obj: League_Manager.cpp.obj
+.PHONY : League_Manager.obj
+
+# target to build an object file
+League_Manager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\football_manager.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\football_manager.dir\League_Manager.cpp.obj
+.PHONY : League_Manager.cpp.obj
+
+League_Manager.i: League_Manager.cpp.i
+.PHONY : League_Manager.i
+
+# target to preprocess a source file
+League_Manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\football_manager.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\football_manager.dir\League_Manager.cpp.i
+.PHONY : League_Manager.cpp.i
+
+League_Manager.s: League_Manager.cpp.s
+.PHONY : League_Manager.s
+
+# target to generate assembly for a file
+League_Manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\football_manager.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\football_manager.dir\League_Manager.cpp.s
+.PHONY : League_Manager.cpp.s
+
 Match.obj: Match.cpp.obj
 .PHONY : Match.obj
 
@@ -420,6 +444,9 @@ help:
 	@echo ... football_manager_autogen
 	@echo ... football_manager_autogen_timestamp_deps
 	@echo ... football_manager
+	@echo ... League_Manager.obj
+	@echo ... League_Manager.i
+	@echo ... League_Manager.s
 	@echo ... Match.obj
 	@echo ... Match.i
 	@echo ... Match.s

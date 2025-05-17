@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/football_manager.dir/League_Manager.cpp.obj"
+  "CMakeFiles/football_manager.dir/League_Manager.cpp.obj.d"
   "CMakeFiles/football_manager.dir/Match.cpp.obj"
   "CMakeFiles/football_manager.dir/Match.cpp.obj.d"
   "CMakeFiles/football_manager.dir/Player.cpp.obj"

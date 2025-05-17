@@ -200,6 +200,21 @@ CMakeFiles\football_manager.dir\Tournament_Manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/football_manager.dir/Tournament_Manager.cpp.s"
 	D:\qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\qt projects\football_manager\Tournament_Manager.cpp" -o CMakeFiles\football_manager.dir\Tournament_Manager.cpp.s
 
+CMakeFiles\football_manager.dir\League_Manager.cpp.obj: CMakeFiles\football_manager.dir\flags.make
+CMakeFiles\football_manager.dir\League_Manager.cpp.obj: CMakeFiles\football_manager.dir\includes_CXX.rsp
+CMakeFiles\football_manager.dir\League_Manager.cpp.obj: "D:\qt projects\football_manager\League_Manager.cpp"
+CMakeFiles\football_manager.dir\League_Manager.cpp.obj: CMakeFiles\football_manager.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\qt projects\football_manager\build\mingw64-Debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/football_manager.dir/League_Manager.cpp.obj"
+	D:\qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles\football_manager.dir\League_Manager.cpp.obj -MF CMakeFiles\football_manager.dir\League_Manager.cpp.obj.d -o CMakeFiles\football_manager.dir\League_Manager.cpp.obj -c "D:\qt projects\football_manager\League_Manager.cpp"
+
+CMakeFiles\football_manager.dir\League_Manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/football_manager.dir/League_Manager.cpp.i"
+	D:\qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\qt projects\football_manager\League_Manager.cpp" > CMakeFiles\football_manager.dir\League_Manager.cpp.i
+
+CMakeFiles\football_manager.dir\League_Manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/football_manager.dir/League_Manager.cpp.s"
+	D:\qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\qt projects\football_manager\League_Manager.cpp" -o CMakeFiles\football_manager.dir\League_Manager.cpp.s
+
 # Object files for target football_manager
 football_manager_OBJECTS = \
 "CMakeFiles\football_manager.dir\football_manager_autogen\mocs_compilation.cpp.obj" \
@@ -210,7 +225,8 @@ football_manager_OBJECTS = \
 "CMakeFiles\football_manager.dir\Match.cpp.obj" \
 "CMakeFiles\football_manager.dir\Training.cpp.obj" \
 "CMakeFiles\football_manager.dir\Tournament.cpp.obj" \
-"CMakeFiles\football_manager.dir\Tournament_Manager.cpp.obj"
+"CMakeFiles\football_manager.dir\Tournament_Manager.cpp.obj" \
+"CMakeFiles\football_manager.dir\League_Manager.cpp.obj"
 
 # External object files for target football_manager
 football_manager_EXTERNAL_OBJECTS =
@@ -224,6 +240,7 @@ football_manager.exe: CMakeFiles\football_manager.dir\Match.cpp.obj
 football_manager.exe: CMakeFiles\football_manager.dir\Training.cpp.obj
 football_manager.exe: CMakeFiles\football_manager.dir\Tournament.cpp.obj
 football_manager.exe: CMakeFiles\football_manager.dir\Tournament_Manager.cpp.obj
+football_manager.exe: CMakeFiles\football_manager.dir\League_Manager.cpp.obj
 football_manager.exe: CMakeFiles\football_manager.dir\build.make
 football_manager.exe: D:\qt\Tools\mingw_64_2\lib\libQt6Widgets.a
 football_manager.exe: D:\qt\Tools\mingw_64_2\lib\libQt6Gui.a
@@ -231,7 +248,7 @@ football_manager.exe: D:\qt\Tools\mingw_64_2\lib\libQt6Core.a
 football_manager.exe: D:\qt\Tools\mingw_64_2\lib\libQt6EntryPoint.a
 football_manager.exe: CMakeFiles\football_manager.dir\linkLibs.rsp
 football_manager.exe: CMakeFiles\football_manager.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\qt projects\football_manager\build\mingw64-Debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable football_manager.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\qt projects\football_manager\build\mingw64-Debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable football_manager.exe"
 	D:\qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\football_manager.dir/objects.a
 	D:\qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\football_manager.dir/objects.a @CMakeFiles\football_manager.dir\objects1.rsp
 	D:\qt\Tools\mingw1120_64\bin\g++.exe -DQT_QML_DEBUG -g -mwindows -Wl,--whole-archive CMakeFiles\football_manager.dir/objects.a -Wl,--no-whole-archive -o football_manager.exe -Wl,--out-implib,libfootball_manager.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\football_manager.dir\linkLibs.rsp

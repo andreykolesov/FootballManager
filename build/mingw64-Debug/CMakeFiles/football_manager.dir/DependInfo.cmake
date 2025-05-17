@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "football_manager_autogen/timestamp" "custom" "football_manager_autogen/deps"
+  "D:/qt projects/football_manager/League_Manager.cpp" "CMakeFiles/football_manager.dir/League_Manager.cpp.obj" "gcc" "CMakeFiles/football_manager.dir/League_Manager.cpp.obj.d"
   "D:/qt projects/football_manager/Match.cpp" "CMakeFiles/football_manager.dir/Match.cpp.obj" "gcc" "CMakeFiles/football_manager.dir/Match.cpp.obj.d"
   "D:/qt projects/football_manager/Player.cpp" "CMakeFiles/football_manager.dir/Player.cpp.obj" "gcc" "CMakeFiles/football_manager.dir/Player.cpp.obj.d"
   "D:/qt projects/football_manager/Team.cpp" "CMakeFiles/football_manager.dir/Team.cpp.obj" "gcc" "CMakeFiles/football_manager.dir/Team.cpp.obj.d"

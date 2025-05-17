@@ -1,5 +1,7 @@
 football_manager_autogen/timestamp: \
 	D:/qt\ projects/football_manager/CMakeLists.txt \
+	D:/qt\ projects/football_manager/League_Manager.cpp \
+	D:/qt\ projects/football_manager/League_Manager.h \
 	D:/qt\ projects/football_manager/Match.cpp \
 	D:/qt\ projects/football_manager/Match.h \
 	D:/qt\ projects/football_manager/Player.cpp \
