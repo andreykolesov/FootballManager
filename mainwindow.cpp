@@ -3,30 +3,70 @@
 #include "Player.h"
 #include "Match.h"
 #include "Training.h"
-#include "Tournament.h"
-
+#include "League_Manager.h"
+#include "Tournament_Manager.h"
+#include "Season_Manager.h"
 #include <QMessageBox>
 #include <QTableWidgetItem>
 #include <QRandomGenerator>
-#include <algorithm>
+#include <QTimer>
+#include <functional>
 #include <QtGlobal>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent),
     ui(new Ui::MainWindow),
+    dynamicLeagueTabWidget(new QTabWidget),
+    tournamentManager(new TournamentManager),
+    seasonManager(new SeasonManager(QStringList{"Лига1", "Лига2", "Лига3", "БольшойТурнир"}, this)),
     matchTimer(new QTimer(this)),
-    currentMinute(0),
-    currentMatch(nullptr),
-    transferWindowOpen(true),
-    knockoutTournament(nullptr)
+    transferWindowOpen(true)
 {
     ui->setupUi(this);
-    connect(matchTimer, &QTimer::timeout, this, &MainWindow::simulateMatchStep);
+
+    connect(ui->comboBoxSellTeam, &QComboBox::currentTextChanged, this, &MainWindow::on_comboBoxSellTeam_currentIndexChanged);
+    connect(ui->btnNextSeason, &QPushButton::clicked, this, &MainWindow::on_btnNextSeason_clicked);
+    connect(ui->btnTransferPlayer, &QPushButton::clicked, this, &MainWindow::on_btnTransferPlayer_clicked);
+
+    connect(seasonManager, &SeasonManager::tournamentFinished,
+            this, [&](const QString &tournamentName, Team* winner){
+                ui->listWidget->addItem(
+                    QString("%1 победила в %2").arg(winner->getName(), tournamentName)
+                    );
+            });
+
+    connect(seasonManager, &SeasonManager::tournamentFinished,
+            this, [&](const QString&, Team*){
+                ui->btnNextSeason->setEnabled(seasonManager->allTournamentsFinished());
+            });
+
+    connect(seasonManager, &SeasonManager::seasonEnded,
+            this, [&](){
+                ui->listWidget->addItem("Сезон завершён.");
+                ui->btnNextSeason->setEnabled(false);
+                displaySeasonResults();
+            });
+
+    connect(seasonManager, &SeasonManager::seasonStarted,
+            this, [&](){
+                ui->listWidget->addItem("Новый сезон начался.");
+                ui->btnNextSeason->setEnabled(true);
+            });
+
+    connect(ui->teamComboBox, &QComboBox::currentTextChanged,
+            this, &MainWindow::onTeamSelectionChanged);
+
+    connect(ui->listWidgetTeamPlayers, &QListWidget::itemDoubleClicked,
+            this, &MainWindow::on_listWidgetTeamPlayers_itemDoubleClicked);
     loadInitialData();
+    createLeagueTabs();
 }
 
 MainWindow::~MainWindow() {
     delete ui;
+    qDeleteAll(leagueUIs);
+    delete dynamicLeagueTabWidget;
+    delete tournamentManager;
 }
 
 void MainWindow::loadInitialData() {
@@ -36,65 +76,176 @@ void MainWindow::loadInitialData() {
         for (int teamIdx = 1; teamIdx <= 5; ++teamIdx) {
             QString teamName = QString("Лига%1_Команда%2").arg(league).arg(teamIdx);
             Team* team = new Team(teamName,
-                                  QRandomGenerator::global()->bounded(60, 90),
-                                  QRandomGenerator::global()->bounded(70, 100),
-                                  QRandomGenerator::global()->bounded(70, 100),
-                                  QString("Тренер %1").arg(teamName),
-                                  QString("Стадион %1").arg(teamName),
-                                  QRandomGenerator::global()->bounded(400, 800));
+                                  QRandomGenerator::global()->bounded(60, 91),
+                                  QRandomGenerator::global()->bounded(60, 91),
+                                  QRandomGenerator::global()->bounded(400, 801));
             for (int playerIdx = 1; playerIdx <= 11; ++playerIdx) {
-                QStringList positions = {"Вратарь", "Защитник", "Защитник", "Защитник", "Защитник",
-                                         "Полузащитник", "Полузащитник", "Нападающий", "Нападающий", "Нападающий", "Полузащитник"};
-                QString playerName = QString("Player L%1T%2_%3").arg(league).arg(teamIdx).arg(playerIdx);
-                Player* player = new Player(playerName,
-                                            positions[playerIdx - 1],
-                                            QRandomGenerator::global()->bounded(60, 100),
-                                            QRandomGenerator::global()->bounded(60, 100),
-                                            QRandomGenerator::global()->bounded(60, 100),
-                                            QRandomGenerator::global()->bounded(60, 100),
-                                            QRandomGenerator::global()->bounded(60, 100),
-                                            QRandomGenerator::global()->bounded(60, 100),
-                                            QRandomGenerator::global()->bounded(60, 100),
-                                            QRandomGenerator::global()->bounded(60, 100),
-                                            QRandomGenerator::global()->bounded(100, 300));
+                QString playerName = QString("Player L%1T%2_%3")
+                .arg(league).arg(teamIdx).arg(playerIdx);
+                Player* player = Player::create(playerName);
                 team->addPlayer(player);
             }
             teams.append(team);
             teamMap[team->getName()] = team;
         }
     }
-    ui->comboBoxHomeTeam->clear();
-    ui->comboBoxAwayTeam->clear();
-    ui->teamComboBox->clear();
+
+    seasonManager->setAllTeams(teams);
+
     ui->comboBoxSellTeam->clear();
     ui->comboBoxBuyTeam->clear();
+    ui->teamComboBox->clear();
     for (Team* t : teams) {
-        ui->comboBoxHomeTeam->addItem(t->getName());
-        ui->comboBoxAwayTeam->addItem(t->getName());
         ui->teamComboBox->addItem(t->getName());
         ui->comboBoxSellTeam->addItem(t->getName());
         ui->comboBoxBuyTeam->addItem(t->getName());
     }
+
     Team* defaultSellTeam = teamMap.value(ui->comboBoxSellTeam->currentText());
     if (defaultSellTeam) {
         ui->listWidgetTransferPlayers->clear();
         for (Player* p : defaultSellTeam->getPlayers())
-            ui->listWidgetTransferPlayers->addItem(QString("%1 (%2)").arg(p->getName()).arg(p->getPosition()));
+            ui->listWidgetTransferPlayers->addItem(p->getName());
     }
+
     if (!teams.isEmpty()) {
         updateTeamDetails(teams.first());
         updateTeamPlayersList(teams.first());
     }
 }
 
-QList<Player*> MainWindow::getPlayersFromTeam(Team *team) {
-    return team->getPlayers();
+void MainWindow::displaySeasonResults() {
+    QMap<Team*, TournamentRecord> seasonResults;
+    for (auto leagueName : leagueUIs.keys()) {
+        LeagueUI* lUI = leagueUIs.value(leagueName);
+        QMap<Team*, TournamentRecord> leagueStandings = lUI->leagueMgr->recalcStandings();
+        for (Team* t : leagueStandings.keys()) {
+            seasonResults[t] = leagueStandings[t];
+        }
+    }
+    QString summary;
+    summary.append("=== Итоги сезона ===\n\n");
+    for (Team* t : seasonResults.keys()) {
+        TournamentRecord rec = seasonResults[t];
+        summary.append(QString("Команда: %1\n  Игр: %2, Побед: %3, Ничьих: %4, Поражений: %5,\n  Забито: %6, Пропущено: %7, Очки: %8\n")
+                           .arg(t->getName())
+                           .arg(rec.played)
+                           .arg(rec.wins)
+                           .arg(rec.draws)
+                           .arg(rec.losses)
+                           .arg(rec.goalsFor)
+                           .arg(rec.goalsAgainst)
+                           .arg(rec.points));
+        QString trophies = t->getTrophies();
+        if (!trophies.isEmpty()) {
+            summary.append("  Трофеи: " + trophies + "\n");
+        }
+        summary.append("\n");
+    }
+    QStringList lines = summary.split("\n", Qt::SkipEmptyParts);
+    for (const QString &line : lines) {
+        ui->listWidget->addItem(line);
+    }
+}
+
+void MainWindow::createLeagueTabs() {
+    dynamicLeagueTabWidget->setTabPosition(QTabWidget::North);
+    leagueUIs.clear();
+
+    QMap<QString, QList<Team*>> leagueGroups;
+    for (Team* team : teams) {
+        QString leagueKey = team->getName().section('_', 0, 0);
+        leagueGroups[leagueKey].append(team);
+    }
+
+    for (auto it = leagueGroups.begin(); it != leagueGroups.end(); ++it) {
+        QString leagueName = it.key();
+        QList<Team*> leagueTeams = it.value();
+
+        QWidget* leagueTab = new QWidget;
+        QVBoxLayout* vLayout = new QVBoxLayout(leagueTab);
+
+        QLabel* scheduleLabel = new QLabel;
+        scheduleLabel->setText("Следующий матч: ");
+        vLayout->addWidget(scheduleLabel);
+
+        QPushButton* matchButton = new QPushButton("Сыграть матч");
+        vLayout->addWidget(matchButton);
+
+        QTextEdit* matchEvents = new QTextEdit;
+        matchEvents->setReadOnly(true);
+        vLayout->addWidget(matchEvents);
+
+        QTableWidget* standingsTable = new QTableWidget;
+        standingsTable->setColumnCount(7);
+        standingsTable->setHorizontalHeaderLabels(QStringList() << "Игр" << "Побед" << "Ничьих"
+                                                                << "Поражений" << "Забито" << "Пропущено" << "Очки");
+        vLayout->addWidget(standingsTable);
+
+        leagueTab->setLayout(vLayout);
+        dynamicLeagueTabWidget->addTab(leagueTab, leagueName);
+
+        LeagueUI* lUI = new LeagueUI;
+        lUI->labelSchedule = scheduleLabel;
+        lUI->matchButton = matchButton;
+        lUI->matchEvents = matchEvents;
+        lUI->standingsTable = standingsTable;
+        lUI->teams = leagueTeams;
+        for (Team* t : leagueTeams)
+            lUI->standings[t] = TournamentRecord{0,0,0,0,0,0,0};
+        lUI->leagueMgr = new LeagueManager(leagueName);
+        for (Team* t : leagueTeams)
+            lUI->leagueMgr->addTeam(t);
+        lUI->leagueMgr->generateSchedule();
+
+        scheduleLabel->setText(lUI->leagueMgr->getCurrentScheduledMatchDescription());
+
+        connect(matchButton, &QPushButton::clicked, [this, lUI, scheduleLabel, leagueName]() {
+            QString schDesc = lUI->leagueMgr->getCurrentScheduledMatchDescription();
+            if (schDesc.startsWith("Все матчи")) {
+                Team* champion = lUI->leagueMgr->determineChampion();
+                if (champion) {
+                    champion->awardTrophy("Кубок Лиги");
+                    if (ui->teamComboBox->currentText() == champion->getName()) {
+                        updateTeamDetails(champion);
+                    }
+                    QMessageBox::information(this, "Лига завершена",
+                                             QString("Чемпион лиги %1: %2")
+                                                 .arg(leagueName)
+                                                 .arg(champion->getName()));
+                }
+            } else {
+                QString events = lUI->leagueMgr->simulateNextMatch();
+                lUI->matchEvents->append(events);
+                scheduleLabel->setText(lUI->leagueMgr->getCurrentScheduledMatchDescription());
+                QMap<Team*, TournamentRecord> newStandings = lUI->leagueMgr->recalcStandings();
+                lUI->standings = newStandings;
+                lUI->standingsTable->clearContents();
+                lUI->standingsTable->setRowCount(lUI->teams.size());
+                int row = 0;
+                for (Team* t : lUI->teams) {
+                    TournamentRecord rec = newStandings.value(t);
+                    lUI->standingsTable->setItem(row, 0, new QTableWidgetItem(QString::number(rec.played)));
+                    lUI->standingsTable->setItem(row, 1, new QTableWidgetItem(QString::number(rec.wins)));
+                    lUI->standingsTable->setItem(row, 2, new QTableWidgetItem(QString::number(rec.draws)));
+                    lUI->standingsTable->setItem(row, 3, new QTableWidgetItem(QString::number(rec.losses)));
+                    lUI->standingsTable->setItem(row, 4, new QTableWidgetItem(QString::number(rec.goalsFor)));
+                    lUI->standingsTable->setItem(row, 5, new QTableWidgetItem(QString::number(rec.goalsAgainst)));
+                    lUI->standingsTable->setItem(row, 6, new QTableWidgetItem(QString::number(rec.points)));
+                    row++;
+                }
+            }
+        });
+
+        leagueUIs[leagueName] = lUI;
+    }
+    ui->verticalLayoutMatches->addWidget(dynamicLeagueTabWidget);
 }
 
 void MainWindow::updateTeamPlayersList(Team *team) {
     ui->listWidgetTeamPlayers->clear();
     for (Player* p : team->getPlayers())
-        ui->listWidgetTeamPlayers->addItem(QString("%1 (%2)").arg(p->getName()).arg(p->getPosition()));
+        ui->listWidgetTeamPlayers->addItem(p->getName());
 }
 
 void MainWindow::updateTeamDetails(Team *team) {
@@ -102,105 +253,87 @@ void MainWindow::updateTeamDetails(Team *team) {
         ui->labelTeamDetails->setText(team->getTeamDetails());
 }
 
-void MainWindow::simulateMatchStep() {
-    currentMinute += 10;
-    if (currentMinute > 90) {
-        matchTimer->stop();
-        ui->textEditMatchEvents->append(QString("Матч завершён. Итоговый счет: %1 - %2")
-                                            .arg(currentMatch->getHomeScore())
-                                            .arg(currentMatch->getAwayScore()));
-        return;
-    }
-    QString eventMsg = currentMatch->simulateStep(currentMinute);
-    if (!eventMsg.isEmpty())
-        ui->textEditMatchEvents->append(eventMsg);
+QList<Player*> MainWindow::getPlayersFromTeam(Team *team) {
+    return team->getPlayers();
 }
 
-void MainWindow::on_btnStartMatch_clicked() {
-    QString homeName = ui->comboBoxHomeTeam->currentText();
-    QString awayName = ui->comboBoxAwayTeam->currentText();
-    if (homeName == awayName) {
-        QMessageBox::warning(this, "Ошибка", "Выберите разные команды для матча!");
-        return;
-    }
-    Team* homeTeam = teamMap.value(homeName);
-    Team* awayTeam = teamMap.value(awayName);
-    if (!homeTeam || !awayTeam)
-        return;
-    if (currentMatch) {
-        delete currentMatch;
-        currentMatch = nullptr;
-    }
-    currentMatch = new Match(homeTeam, awayTeam);
-    currentMinute = 0;
-    ui->textEditMatchEvents->clear();
-    matchTimer->start(1000);
-}
+void MainWindow::on_listWidgetTeamPlayers_itemDoubleClicked(QListWidgetItem* item) {
+    if (!item) return;
+    QString playerName = item->text();
+    Team* team = teamMap.value(ui->teamComboBox->currentText());
+    if (!team) return;
 
-void MainWindow::on_btnSimulateKnockout_clicked() {
-    QList<Team*> selectedTeams;
-    int count = qMin(8, teams.size());
-    for (int i = 0; i < count; ++i)
-        selectedTeams.append(teams.at(i));
-    if (knockoutTournament) {
-        delete knockoutTournament;
-        knockoutTournament = nullptr;
-    }
-    knockoutTournament = new Tournament("Кубок Чемпионов");
-    for (Team* t : selectedTeams)
-        knockoutTournament->addTeam(t);
-    Team* champ = knockoutTournament->simulateKnockoutTournament();
-    QMessageBox::information(this, "Победитель турнира",
-                             champ ? QString("Победитель: %1").arg(champ->getName())
-                                   : "Нет победителя");
-}
-
-void MainWindow::on_teamComboBox_currentIndexChanged(int index) {
-    QString teamName = ui->teamComboBox->itemText(index);
-    Team* t = teamMap.value(teamName);
-    if (t) {
-        updateTeamDetails(t);
-        updateTeamPlayersList(t);
-    }
-}
-
-void MainWindow::on_listWidgetTeamPlayers_itemClicked(QListWidgetItem *item) {
-    QString teamName = ui->teamComboBox->currentText();
-    Team* team = teamMap.value(teamName);
-    if (!team)
-        return;
-    QString displayText = item->text();
-    QString playerName = displayText.section(" (", 0, 0);
+    Player* selectedPlayer = nullptr;
     for (Player* p : team->getPlayers()) {
         if (p->getName() == playerName) {
-            QMessageBox::information(this, "Характеристики игрока", p->getDetails());
+            selectedPlayer = p;
             break;
         }
     }
+    if (!selectedPlayer) return;
+
+    QDialog dlg(this);
+    dlg.setWindowTitle("Статистика игрока и тренировка");
+    QVBoxLayout* vbox = new QVBoxLayout(&dlg);
+
+    QList<QLabel*> labels;
+    QVariantMap stats = selectedPlayer->getStats();
+    for (auto key : stats.keys()) {
+        QLabel* lbl = new QLabel(QString("%1: %2").arg(key, stats[key].toString()), &dlg);
+        vbox->addWidget(lbl);
+        labels << lbl;
+    }
+
+    QPushButton* btnTrain = new QPushButton("Провести тренировку", &dlg);
+    vbox->addWidget(btnTrain);
+
+    connect(btnTrain, &QPushButton::clicked, [&]() {
+        selectedPlayer->train();
+        QVariantMap newStats = selectedPlayer->getStats();
+        for (QLabel* lbl : labels) {
+            QString key = lbl->text().section(':', 0, 0);
+            lbl->setText(QString("%1: %2").arg(key, newStats[key].toString()));
+        }
+    });
+
+    dlg.exec();
 }
 
 void MainWindow::on_btnTransferPlayer_clicked() {
-    if (!transferWindowOpen) {
-        QMessageBox::warning(this, "Ошибка", "Трансферное окно закрыто на данный сезон!");
-        return;
-    }
     QString sellTeamName = ui->comboBoxSellTeam->currentText();
     QString buyTeamName = ui->comboBoxBuyTeam->currentText();
+
+    Team* sellTeam = teamMap.value(sellTeamName);
+    Team* buyTeam = teamMap.value(buyTeamName);
+
+    if (!sellTeam || !buyTeam)
+        return;
+
+    for (auto lUI : leagueUIs) {
+        if (lUI->leagueMgr->getTeams().contains(sellTeam) &&
+            !lUI->leagueMgr->allMatchesPlayed()) {
+            QMessageBox::warning(this, "Ошибка", "Невозможно проводить трансфер: продающая команда играет турнир!");
+            return;
+        }
+
+        if (lUI->leagueMgr->getTeams().contains(buyTeam) &&
+            !lUI->leagueMgr->allMatchesPlayed()) {
+            QMessageBox::warning(this, "Ошибка", "Невозможно проводить трансфер: покупающая команда играет турнир!");
+            return;
+        }
+    }
+
     if (sellTeamName == buyTeamName) {
         QMessageBox::warning(this, "Ошибка", "Выберите разные команды для трансфера!");
         return;
     }
-    Team* sellTeam = teamMap.value(sellTeamName);
-    Team* buyTeam = teamMap.value(buyTeamName);
-    if (!sellTeam || !buyTeam)
-        return;
+
     QListWidgetItem* item = ui->listWidgetTransferPlayers->currentItem();
     if (!item) {
         QMessageBox::warning(this, "Ошибка", "Выберите игрока для трансфера!");
         return;
     }
-    QString displayText = item->text();
-    QString playerName = displayText.section(" (", 0, 0);
+    QString playerName = item->text();
     Player* transferPlayer = nullptr;
     for (Player* p : sellTeam->getPlayers()) {
         if (p->getName() == playerName) {
@@ -211,8 +344,8 @@ void MainWindow::on_btnTransferPlayer_clicked() {
     if (!transferPlayer)
         return;
     int price = transferPlayer->getPrice();
-    if (buyTeam->getBudget() < price) {
-        QMessageBox::warning(this, "Ошибка", "У покупателя недостаточно средств!");
+    if (buyTeam->getBudget() < price || QRandomGenerator::global()->bounded(100) > 65) {
+        QMessageBox::warning(this, "Ошибка", "Трансфер не состоялся: либо недостаточно средств, либо игрок не хочет переходить.");
         return;
     }
     if (buyTeam->decreaseBudget(price)) {
@@ -221,7 +354,7 @@ void MainWindow::on_btnTransferPlayer_clicked() {
         buyTeam->addPlayer(transferPlayer);
         ui->listWidgetTransferPlayers->clear();
         for (Player* p : sellTeam->getPlayers())
-            ui->listWidgetTransferPlayers->addItem(QString("%1 (%2)").arg(p->getName()).arg(p->getPosition()));
+            ui->listWidgetTransferPlayers->addItem(p->getName());
         QMessageBox::information(this, "Трансфер",
                                  QString("Игрок \"%1\" переведен из \"%2\" в \"%3\".\nСтоимость трансфера: %4")
                                      .arg(playerName, sellTeamName, buyTeamName)
@@ -229,133 +362,105 @@ void MainWindow::on_btnTransferPlayer_clicked() {
     }
 }
 
-void MainWindow::on_btnConductTraining_clicked() {
-    QListWidgetItem* item = ui->listWidgetTeamPlayers->currentItem();
-    if (!item) {
-        QMessageBox::warning(this, "Ошибка", "Выберите игрока для тренировки!");
-        return;
+void MainWindow::on_btnNextSeason_clicked() {
+    if (ui->btnNextSeason->text() == "Завершить сезон") {
+        for (auto lUI : leagueUIs) {
+            if (lUI->leagueMgr->getCurrentScheduledMatchDescription() != "Все матчи сыграны.") {
+                QMessageBox::warning(this, "Ошибка", "Невозможно завершить сезон: не сыграны все матчи лиг!");
+                return;
+            }
+        }
+        transferWindowOpen = false;
+        ui->listWidget->addItem("Сезон завершён, трансферное окно закрыто.");
+
+        seasonManager->endSeason(teams);
+
+        seasonManager->startNextSeason(0, [this]() {
+            ui->btnNextSeason->setText("Открыть сезон");
+            ui->listWidget->addItem("Новый сезон готов к открытию. Нажмите 'Открыть сезон'.");
+        });
     }
-    QString displayText = item->text();
-    QString playerName = displayText.section(" (", 0, 0);
-    QString teamName = ui->teamComboBox->currentText();
-    Team* team = teamMap.value(teamName);
-    if (!team)
-        return;
-    Player* selectedPlayer = nullptr;
-    for (Player* p : team->getPlayers()) {
-        if (p->getName() == playerName) {
-            selectedPlayer = p;
-            break;
+    else if (ui->btnNextSeason->text() == "Открыть сезон") {
+        transferWindowOpen = true;
+
+        ui->listWidget->clear();
+
+        for (Team* team : teams) {
+            team->resetTrophies();
+        }
+
+        for (auto lUI : leagueUIs) {
+            lUI->leagueMgr->generateSchedule();
+            lUI->labelSchedule->setText(lUI->leagueMgr->getCurrentScheduledMatchDescription());
+
+            lUI->matchEvents->clear();
+
+            QMap<Team*, TournamentRecord> newStandings = lUI->leagueMgr->recalcStandings();
+            lUI->standings = newStandings;
+            lUI->standingsTable->clearContents();
+            lUI->standingsTable->setRowCount(lUI->teams.size());
+            int row = 0;
+            for (Team* t : lUI->teams) {
+                TournamentRecord rec = newStandings.value(t);
+                lUI->standingsTable->setItem(row, 0, new QTableWidgetItem(QString::number(rec.played)));
+                lUI->standingsTable->setItem(row, 1, new QTableWidgetItem(QString::number(rec.wins)));
+                lUI->standingsTable->setItem(row, 2, new QTableWidgetItem(QString::number(rec.draws)));
+                lUI->standingsTable->setItem(row, 3, new QTableWidgetItem(QString::number(rec.losses)));
+                lUI->standingsTable->setItem(row, 4, new QTableWidgetItem(QString::number(rec.goalsFor)));
+                lUI->standingsTable->setItem(row, 5, new QTableWidgetItem(QString::number(rec.goalsAgainst)));
+                lUI->standingsTable->setItem(row, 6, new QTableWidgetItem(QString::number(rec.points)));
+                row++;
+            }
+        }
+
+        if (ui->teamComboBox->currentIndex() >= 0) {
+            Team* team = teamMap.value(ui->teamComboBox->currentText());
+            if (team)
+                updateTeamDetails(team);
+        }
+
+        ui->listWidget->addItem("Новый сезон открыт.");
+        ui->btnNextSeason->setText("Завершить сезон");
+    }
+}
+
+
+void MainWindow::updateLeagueStandingsGlobal() {
+    for (auto leagueName : leagueUIs.keys()) {
+        LeagueUI* lUI = leagueUIs.value(leagueName);
+        QMap<Team*, TournamentRecord> newStandings = lUI->leagueMgr->recalcStandings();
+        lUI->standings = newStandings;
+        lUI->standingsTable->clearContents();
+        lUI->standingsTable->setRowCount(lUI->teams.size());
+        int row = 0;
+        for (Team* t : lUI->teams) {
+            TournamentRecord rec = newStandings.value(t);
+            lUI->standingsTable->setItem(row, 0, new QTableWidgetItem(QString::number(rec.played)));
+            lUI->standingsTable->setItem(row, 1, new QTableWidgetItem(QString::number(rec.wins)));
+            lUI->standingsTable->setItem(row, 2, new QTableWidgetItem(QString::number(rec.draws)));
+            lUI->standingsTable->setItem(row, 3, new QTableWidgetItem(QString::number(rec.losses)));
+            lUI->standingsTable->setItem(row, 4, new QTableWidgetItem(QString::number(rec.goalsFor)));
+            lUI->standingsTable->setItem(row, 5, new QTableWidgetItem(QString::number(rec.goalsAgainst)));
+            lUI->standingsTable->setItem(row, 6, new QTableWidgetItem(QString::number(rec.points)));
+            row++;
         }
     }
-    if (selectedPlayer) {
-        TrainingSession::conductTraining(selectedPlayer);
-        QMessageBox::information(this, "Тренировка",
-                                 QString("Новые показатели игрока %1:\nФорма: %2")
-                                     .arg(selectedPlayer->getName())
-                                     .arg(selectedPlayer->getCurrentForm()));
+}
+
+void MainWindow::onTeamSelectionChanged(const QString &teamName) {
+    Team* team = teamMap.value(teamName);
+    if (team) {
+        updateTeamDetails(team);
         updateTeamPlayersList(team);
     }
 }
 
-void MainWindow::on_btnNextSeason_clicked() {
-    transferWindowOpen = false;
-    QMessageBox::information(this, "Сезон", "Сезон завершён, трансферное окно закрыто.");
-    updateLeagueStandings();
-    for (Team* team : teams) {
+void MainWindow::on_comboBoxSellTeam_currentIndexChanged(const QString &teamName) {
+    Team* team = teamMap.value(teamName);
+    ui->listWidgetTransferPlayers->clear();
+    if (team) {
         for (Player* p : team->getPlayers()) {
-            p->setSpeed(qMax(p->getSpeed() - 1, 50));
-            p->setShotPrecision(qMax(p->getShotPrecision() - 1, 50));
-            p->setEndurance(qMax(p->getEndurance() - 1, 50));
-            p->setDribbling(qMax(p->getDribbling() - 1, 50));
-            p->setPassPrecision(qMax(p->getPassPrecision() - 1, 50));
-            p->setDefenseSkill(qMax(p->getDefenseSkill() - 1, 50));
-            p->setPhysicalStrength(qMax(p->getPhysicalStrength() - 1, 50));
-            p->setCurrentForm(qMax(p->getCurrentForm() - 2, 50));
+            ui->listWidgetTransferPlayers->addItem(p->getName());
         }
-    }
-    transferWindowOpen = true;
-    QMessageBox::information(this, "Новый сезон", "Начало нового сезона. Трансферное окно открыто.");
-    updateLeagueStandings();
-}
-
-void MainWindow::updateLeagueStandings() {
-    QMap<QString, QList<Team*>> leagues;
-    for (Team* team : teams) {
-        QString leagueId = team->getName().section('_', 0, 0);
-        leagues[leagueId].append(team);
-    }
-    QMap<Team*, TournamentRecord> leagueStandings;
-    for (auto leagueId : leagues.keys()) {
-        QList<Team*> leagueTeams = leagues.value(leagueId);
-        for (Team* t : leagueTeams) {
-            TournamentRecord rec = {0, 0, 0, 0, 0, 0, 0};
-            leagueStandings[t] = rec;
-        }
-        for (int i = 0; i < leagueTeams.size(); ++i) {
-            for (int j = i+1; j < leagueTeams.size(); ++j) {
-                Team* teamA = leagueTeams.at(i);
-                Team* teamB = leagueTeams.at(j);
-                int teamARating = teamA->getAttack() + teamA->getAveragePlayerRating() + teamA->getMood();
-                int teamBRating = teamB->getDefense() + teamB->getAveragePlayerRating() + teamB->getMood();
-                int scoreA = QRandomGenerator::global()->bounded(0, teamARating / 20 + 2);
-                int scoreB = QRandomGenerator::global()->bounded(0, teamBRating / 20 + 2);
-                TournamentRecord recA = leagueStandings.value(teamA);
-                TournamentRecord recB = leagueStandings.value(teamB);
-                recA.played++;
-                recB.played++;
-                recA.goalsFor += scoreA;
-                recA.goalsAgainst += scoreB;
-                recB.goalsFor += scoreB;
-                recB.goalsAgainst += scoreA;
-                if (scoreA > scoreB) {
-                    recA.wins++;
-                    recB.losses++;
-                    recA.points += 3;
-                } else if (scoreA < scoreB) {
-                    recB.wins++;
-                    recA.losses++;
-                    recB.points += 3;
-                } else {
-                    recA.draws++;
-                    recB.draws++;
-                    recA.points += 1;
-                    recB.points += 1;
-                }
-                leagueStandings[teamA] = recA;
-                leagueStandings[teamB] = recB;
-            }
-        }
-    }
-    ui->tableWidgetStandings->clear();
-    ui->tableWidgetStandings->setColumnCount(10);
-    ui->tableWidgetStandings->setHorizontalHeaderLabels(QStringList() << "Лига" << "Команда" << "Игр"
-                                                                      << "Побед" << "Ничьих" << "Поражений"
-                                                                      << "Забито" << "Пропущено" << "Очки"
-                                                                      << "Бюджет");
-    QList<Team*> sortedTeams = leagueStandings.keys();
-    std::sort(sortedTeams.begin(), sortedTeams.end(), [leagueStandings](Team* a, Team* b) -> bool {
-        QString leagueA = a->getName().section('_', 0, 0);
-        QString leagueB = b->getName().section('_', 0, 0);
-        if (leagueA == leagueB)
-            return leagueStandings.value(a).points > leagueStandings.value(b).points;
-        return leagueA < leagueB;
-    });
-    ui->tableWidgetStandings->setRowCount(sortedTeams.size());
-    int row = 0;
-    for (Team* team : sortedTeams) {
-        QString leagueId = team->getName().section('_', 0, 0);
-        TournamentRecord rec = leagueStandings.value(team);
-        ui->tableWidgetStandings->setItem(row, 0, new QTableWidgetItem(leagueId));
-        ui->tableWidgetStandings->setItem(row, 1, new QTableWidgetItem(team->getName()));
-        ui->tableWidgetStandings->setItem(row, 2, new QTableWidgetItem(QString::number(rec.played)));
-        ui->tableWidgetStandings->setItem(row, 3, new QTableWidgetItem(QString::number(rec.wins)));
-        ui->tableWidgetStandings->setItem(row, 4, new QTableWidgetItem(QString::number(rec.draws)));
-        ui->tableWidgetStandings->setItem(row, 5, new QTableWidgetItem(QString::number(rec.losses)));
-        ui->tableWidgetStandings->setItem(row, 6, new QTableWidgetItem(QString::number(rec.goalsFor)));
-        ui->tableWidgetStandings->setItem(row, 7, new QTableWidgetItem(QString::number(rec.goalsAgainst)));
-        ui->tableWidgetStandings->setItem(row, 8, new QTableWidgetItem(QString::number(rec.points)));
-        ui->tableWidgetStandings->setItem(row, 9, new QTableWidgetItem(QString::number(team->getBudget())));
-        ++row;
     }
 }

@@ -376,6 +376,26 @@ CMakeFiles\football_manager.dir\main.cpp.obj: \
  D:/qt/Tools/mingw_64_2/include/QtCore/QTimer \
  D:/qt/Tools/mingw_64_2/include/QtCore/qtimer.h \
  D:/qt/Tools/mingw_64_2/include/QtCore/qbasictimer.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/QTabWidget \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qtabwidget.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/QLabel \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qlabel.h \
+ D:/qt/Tools/mingw_64_2/include/QtGui/qpicture.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qiodevice.h \
+ D:/qt/Tools/mingw_64_2/include/QtGui/qtextdocument.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qurl.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/QPushButton \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qpushbutton.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qabstractbutton.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/QTextEdit \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qtextedit.h \
+ D:/qt/Tools/mingw_64_2/include/QtGui/qtextoption.h \
+ D:/qt/Tools/mingw_64_2/include/QtGui/qtextcursor.h \
+ D:/qt/Tools/mingw_64_2/include/QtGui/qtextformat.h \
+ D:/qt/Tools/mingw_64_2/include/QtGui/qpen.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/QTableWidget \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qtablewidget.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qtableview.h \
  D:\qt\ projects\football_manager\Team.h \
  D:/qt/Tools/mingw_64_2/include/QtCore/QString \
  D:/qt/Tools/mingw_64_2/include/QtCore/qstring.h \
@@ -394,6 +414,14 @@ CMakeFiles\football_manager.dir\main.cpp.obj: \
  D:\qt\ projects\football_manager\Match.h \
  D:/qt/Tools/mingw_64_2/include/QtCore/QStringList \
  D:/qt/Tools/mingw_64_2/include/QtCore/qstringlist.h \
+ D:\qt\ projects\football_manager\League_Manager.h \
+ D:\qt\ projects\football_manager\Tournament_Manager.h \
+ D:\qt\ projects\football_manager\Season_Manager.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/QObject \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qobject.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/QDateTime \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qdatetime.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qcalendar.h \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/QApplication \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/qapplication.h \
  D:/qt/Tools/mingw_64_2/include/QtCore/qcoreapplication.h \

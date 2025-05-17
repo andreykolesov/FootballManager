@@ -5,40 +5,61 @@
 #include <QMap>
 #include <QListWidgetItem>
 #include <QTimer>
+#include <QTabWidget>
+#include <QLabel>
+#include <QPushButton>
+#include <QTextEdit>
+#include <QTableWidget>
 #include "Team.h"
 #include "Tournament.h"
+#include "League_Manager.h"
+#include "Tournament_Manager.h"
+#include "Season_Manager.h"
 
-class Ui_MainWindow;
+QT_BEGIN_NAMESPACE
+namespace Ui { class MainWindow; }
+QT_END_NAMESPACE
+
+struct LeagueUI {
+    QLabel* labelSchedule;
+    QPushButton* matchButton;
+    QTextEdit* matchEvents;
+    QTableWidget* standingsTable;
+    QMap<Team*, TournamentRecord> standings;
+    QList<Team*> teams;
+    LeagueManager* leagueMgr;
+};
 
 class MainWindow : public QMainWindow {
     Q_OBJECT
 private:
-    void on_btnStartMatch_clicked();
-    void simulateMatchStep();
-    void on_btnSimulateKnockout_clicked();
-    void on_teamComboBox_currentIndexChanged(int index);
-    void on_listWidgetTeamPlayers_itemClicked(QListWidgetItem* item);
-    void on_btnTransferPlayer_clicked();
-    void on_btnConductTraining_clicked();
-    void on_btnNextSeason_clicked();
-    void updateLeagueStandings();
-
-    Ui_MainWindow *ui;
+    Ui::MainWindow *ui;
     QList<Team*> teams;
     QMap<QString, Team*> teamMap;
-    Tournament* knockoutTournament;
+    QTabWidget* dynamicLeagueTabWidget;
+    QMap<QString, LeagueUI*> leagueUIs;
+    TournamentManager* tournamentManager;
+    SeasonManager* seasonManager;
     QTimer* matchTimer;
-    int currentMinute;
-    class Match* currentMatch;
     bool transferWindowOpen;
 
     void loadInitialData();
+    void createLeagueTabs();
     void updateTeamPlayersList(Team* team);
     void updateTeamDetails(Team* team);
     QList<Player*> getPlayersFromTeam(Team* team);
+    void on_comboBoxSellTeam_currentIndexChanged(const QString &teamName);
 public:
-    MainWindow(QWidget *parent = nullptr);
+    explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+
+    void on_btnTransferPlayer_clicked();
+    void on_btnConductTraining_clicked();
+    void on_btnNextSeason_clicked();
+    void updateLeagueStandingsGlobal();
+    void on_listWidgetTeamPlayers_itemDoubleClicked(QListWidgetItem* item);
+    void onTeamSelectionChanged(const QString &teamName);
+    void displaySeasonResults();
 };
 
 #endif
