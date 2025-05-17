@@ -228,6 +228,7 @@ CMakeFiles\football_manager.dir\Match.cpp.obj: "D:\qt projects\football_manager\
   D:\qt\Tools\mingw_64_2\include\QtCore\QStringList \
   D:\qt\Tools\mingw_64_2\include\QtCore\QVariant \
   D:\qt\Tools\mingw_64_2\include\QtCore\QVariantMap \
+  D:\qt\Tools\mingw_64_2\include\QtCore\QtGlobal \
   D:\qt\Tools\mingw_64_2\include\QtCore\q20memory.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\q20type_traits.h \
   D:\qt\Tools\mingw_64_2\include\QtCore\qalgorithms.h \
@@ -9090,6 +9091,10 @@ D:\qt\Tools\mingw_64_2\include\QtCore\QVariant:
 
 D:\qt\Tools\mingw_64_2\include\QtCore\QVariantMap:
 
+D:\qt\Tools\mingw_64_2\include\QtCore\QtGlobal:
+
+D:\qt\Tools\mingw_64_2\include\QtWidgets\qtabwidget.h:
+
 D:\qt\Tools\mingw_64_2\include\QtCore\q20memory.h:
 
 "D:\qt projects\football_manager\Training.h":
@@ -9383,10 +9388,6 @@ D:\qt\Tools\mingw_64_2\include\QtWidgets\qstyle.h:
 D:\qt\Tools\mingw_64_2\include\QtWidgets\qstyleoption.h:
 
 D:\qt\Tools\mingw_64_2\include\QtWidgets\qtabbar.h:
-
-D:\qt\Tools\mingw_64_2\include\QtWidgets\qtabwidget.h:
-
-D:\qt\Tools\mingw_64_2\include\QtCore\QtGlobal:
 
 D:\qt\Tools\mingw_64_2\include\QtWidgets\qtwidgetsexports.h:
 
