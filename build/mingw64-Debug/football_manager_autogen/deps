@@ -8,6 +8,8 @@ football_manager_autogen/timestamp: \
 	D:/qt\ projects/football_manager/Team.h \
 	D:/qt\ projects/football_manager/Tournament.cpp \
 	D:/qt\ projects/football_manager/Tournament.h \
+	D:/qt\ projects/football_manager/Tournament_Manager.cpp \
+	D:/qt\ projects/football_manager/Tournament_Manager.h \
 	D:/qt\ projects/football_manager/Training.cpp \
 	D:/qt\ projects/football_manager/Training.h \
 	D:/qt\ projects/football_manager/build/mingw64-Debug/.qtc/package-manager/auto-setup.cmake \

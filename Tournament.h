@@ -25,6 +25,7 @@ public:
     void addTeam(Team* team);
     Team* simulateKnockoutTournament();
     QList<Team*> getTeams() const;
+    static QMap<Team*, TournamentRecord> simulateLeagueSeason(const QList<Team*>& teams);
 };
 
 #endif
