@@ -271,6 +271,12 @@
 			null
 		],
 		[
+			"D:/qt projects/football_manager/Season_Manager.h",
+			"MU",
+			"EWIEGA46WW/moc_Season_Manager.cpp",
+			null
+		],
+		[
 			"D:/qt projects/football_manager/Team.h",
 			"MU",
 			"EWIEGA46WW/moc_Team.cpp",
@@ -374,6 +380,7 @@
 		[ "D:/qt projects/football_manager/League_Manager.cpp", "MU", null ],
 		[ "D:/qt projects/football_manager/Match.cpp", "MU", null ],
 		[ "D:/qt projects/football_manager/Player.cpp", "MU", null ],
+		[ "D:/qt projects/football_manager/Season_Manager.cpp", "MU", null ],
 		[ "D:/qt projects/football_manager/Team.cpp", "MU", null ],
 		[ "D:/qt projects/football_manager/Tournament.cpp", "MU", null ],
 		[ "D:/qt projects/football_manager/Tournament_Manager.cpp", "MU", null ],

@@ -261,6 +261,30 @@ Player.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\football_manager.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\football_manager.dir\Player.cpp.s
 .PHONY : Player.cpp.s
 
+Season_Manager.obj: Season_Manager.cpp.obj
+.PHONY : Season_Manager.obj
+
+# target to build an object file
+Season_Manager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\football_manager.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\football_manager.dir\Season_Manager.cpp.obj
+.PHONY : Season_Manager.cpp.obj
+
+Season_Manager.i: Season_Manager.cpp.i
+.PHONY : Season_Manager.i
+
+# target to preprocess a source file
+Season_Manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\football_manager.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\football_manager.dir\Season_Manager.cpp.i
+.PHONY : Season_Manager.cpp.i
+
+Season_Manager.s: Season_Manager.cpp.s
+.PHONY : Season_Manager.s
+
+# target to generate assembly for a file
+Season_Manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\football_manager.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\football_manager.dir\Season_Manager.cpp.s
+.PHONY : Season_Manager.cpp.s
+
 Team.obj: Team.cpp.obj
 .PHONY : Team.obj
 
@@ -453,6 +477,9 @@ help:
 	@echo ... Player.obj
 	@echo ... Player.i
 	@echo ... Player.s
+	@echo ... Season_Manager.obj
+	@echo ... Season_Manager.i
+	@echo ... Season_Manager.s
 	@echo ... Team.obj
 	@echo ... Team.i
 	@echo ... Team.s

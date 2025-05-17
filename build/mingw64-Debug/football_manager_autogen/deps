@@ -6,6 +6,8 @@ football_manager_autogen/timestamp: \
 	D:/qt\ projects/football_manager/Match.h \
 	D:/qt\ projects/football_manager/Player.cpp \
 	D:/qt\ projects/football_manager/Player.h \
+	D:/qt\ projects/football_manager/Season_Manager.cpp \
+	D:/qt\ projects/football_manager/Season_Manager.h \
 	D:/qt\ projects/football_manager/Team.cpp \
 	D:/qt\ projects/football_manager/Team.h \
 	D:/qt\ projects/football_manager/Tournament.cpp \
@@ -252,8 +254,10 @@ football_manager_autogen/timestamp: \
 	D:/qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
 	D:/qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
 	D:/qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
+	D:/qt/Tools/mingw_64_2/include/QtCore/QDateTime \
 	D:/qt/Tools/mingw_64_2/include/QtCore/QList \
 	D:/qt/Tools/mingw_64_2/include/QtCore/QMap \
+	D:/qt/Tools/mingw_64_2/include/QtCore/QObject \
 	D:/qt/Tools/mingw_64_2/include/QtCore/QSet \
 	D:/qt/Tools/mingw_64_2/include/QtCore/QString \
 	D:/qt/Tools/mingw_64_2/include/QtCore/QStringList \
@@ -278,6 +282,7 @@ football_manager_autogen/timestamp: \
 	D:/qt/Tools/mingw_64_2/include/QtCore/qbytearrayalgorithms.h \
 	D:/qt/Tools/mingw_64_2/include/QtCore/qbytearraylist.h \
 	D:/qt/Tools/mingw_64_2/include/QtCore/qbytearrayview.h \
+	D:/qt/Tools/mingw_64_2/include/QtCore/qcalendar.h \
 	D:/qt/Tools/mingw_64_2/include/QtCore/qchar.h \
 	D:/qt/Tools/mingw_64_2/include/QtCore/qcompare.h \
 	D:/qt/Tools/mingw_64_2/include/QtCore/qcompare_impl.h \
@@ -290,6 +295,7 @@ football_manager_autogen/timestamp: \
 	D:/qt/Tools/mingw_64_2/include/QtCore/qcontiguouscache.h \
 	D:/qt/Tools/mingw_64_2/include/QtCore/qdarwinhelpers.h \
 	D:/qt/Tools/mingw_64_2/include/QtCore/qdatastream.h \
+	D:/qt/Tools/mingw_64_2/include/QtCore/qdatetime.h \
 	D:/qt/Tools/mingw_64_2/include/QtCore/qdebug.h \
 	D:/qt/Tools/mingw_64_2/include/QtCore/qexceptionhandling.h \
 	D:/qt/Tools/mingw_64_2/include/QtCore/qflags.h \

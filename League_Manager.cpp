@@ -45,7 +45,7 @@ QString LeagueManager::simulateNextMatch() {
         return "Все матчи сыграны.";
 
     ScheduledMatch &sch = m_schedule[m_currentMatchIndex];
-    Match* match = new Match(sch.home, sch.away);
+    Match* match = Match::create(sch.home, sch.away);
     QString events;
     int minutes = 0;
     while(minutes < 90) {
