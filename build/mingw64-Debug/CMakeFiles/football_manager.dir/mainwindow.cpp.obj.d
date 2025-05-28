@@ -452,10 +452,9 @@ CMakeFiles\football_manager.dir\mainwindow.cpp.obj: \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/QWidget \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/qwidget.h \
  D:\qt\ projects\football_manager\Training.h \
- D:/qt/Tools/mingw_64_2/include/QtWidgets/QMessageBox \
- D:/qt/Tools/mingw_64_2/include/QtWidgets/qmessagebox.h \
- D:/qt/Tools/mingw_64_2/include/QtWidgets/qdialog.h \
- D:/qt/Tools/mingw_64_2/include/QtWidgets/QTableWidgetItem \
+ D:\qt\ projects\football_manager\Player_Create.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/QWidget \
+ D:\qt\ projects\football_manager\Sponsor.h \
  D:/qt/Tools/mingw_64_2/include/QtCore/QRandomGenerator \
  D:/qt/Tools/mingw_64_2/include/QtCore/qrandom.h \
  D:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/random \
@@ -466,5 +465,11 @@ CMakeFiles\football_manager.dir\mainwindow.cpp.obj: \
  D:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xmmintrin.h \
  D:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mmintrin.h \
  D:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/random.tcc \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/QMessageBox \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qmessagebox.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qdialog.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/QTableWidgetItem \
  D:/qt/Tools/mingw_64_2/include/QtCore/QtGlobal \
- D:/qt/Tools/mingw_64_2/include/QtCore/qglobal.h
+ D:/qt/Tools/mingw_64_2/include/QtCore/qglobal.h \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/QGroupBox \
+ D:/qt/Tools/mingw_64_2/include/QtWidgets/qgroupbox.h
