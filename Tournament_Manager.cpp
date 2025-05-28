@@ -10,7 +10,6 @@ TournamentManager::~TournamentManager() {}
 QList<QList<Team*>> TournamentManager::startTournament(const QList<Team*>& selectedTeams) {
     QList<Team*> teamsCopy = selectedTeams;
     std::random_shuffle(teamsCopy.begin(), teamsCopy.end());
-
     int groupSize = 4;
     QList<QList<Team*>> groups;
     for (int i = 0; i < teamsCopy.size(); i += groupSize) {
@@ -19,31 +18,20 @@ QList<QList<Team*>> TournamentManager::startTournament(const QList<Team*>& selec
             group.append(teamsCopy.at(j));
         groups.append(group);
     }
-    m_groups = groups;
-
-    for (int i = 0; i < groups.size(); ++i) {
-        QMap<Team*, TournamentRecord> standings = Tournament::simulateLeagueSeason(groups.at(i));
-        m_groupStandings[i] = standings;
-    }
     return groups;
 }
 
 QList<Team*> TournamentManager::simulateGroupStage(const QList<Team*>& group) {
     QMap<Team*, TournamentRecord> standings = Tournament::simulateLeagueSeason(group);
-    int groupIndex = m_groups.indexOf(group);
-    if (groupIndex != -1)
-        m_groupStandings[groupIndex] = standings;
-
-    QList<QPair<Team*, TournamentRecord>> teamRecords;
+    QList<QPair<Team*, TournamentRecord>> ranking;
     for (Team* t : group)
-        teamRecords.append(qMakePair(t, standings[t]));
-    std::sort(teamRecords.begin(), teamRecords.end(), [](const QPair<Team*, TournamentRecord>& a,
-                                                         const QPair<Team*, TournamentRecord>& b) -> bool {
+        ranking.append(qMakePair(t, standings[t]));
+    std::sort(ranking.begin(), ranking.end(), [](const QPair<Team*, TournamentRecord>& a,
+                                                 const QPair<Team*, TournamentRecord>& b) -> bool {
         return a.second.points > b.second.points;
     });
-
     QList<Team*> sortedTeams;
-    for (const auto &pair : teamRecords)
+    for (const auto &pair : ranking)
         sortedTeams.append(pair.first);
     return sortedTeams;
 }
@@ -69,4 +57,29 @@ Team* TournamentManager::simulateFinal(Team* teamA, Team* teamB) {
     finalTournament.addTeam(teamA);
     finalTournament.addTeam(teamB);
     return finalTournament.simulateKnockoutTournament();
+}
+
+Team* TournamentManager::startWorldCupTournament(const QList<Team*>& selectedTeams, QMap<QString, QList<Team*>> &groupResults) {
+    if (selectedTeams.size() < 12)
+        return nullptr;
+    QList<Team*> teamsCopy = selectedTeams;
+    std::sort(teamsCopy.begin(), teamsCopy.end(), [](Team* a, Team* b) -> bool {
+        int trophyCountA = a->getTrophies().split(", ", Qt::SkipEmptyParts).size();
+        int trophyCountB = b->getTrophies().split(", ", Qt::SkipEmptyParts).size();
+        if (trophyCountA != trophyCountB)
+            return trophyCountA > trophyCountB;
+        int perfA = a->getAttackRating() + a->getDefenseRating();
+        int perfB = b->getAttackRating() + b->getDefenseRating();
+        return perfA > perfB;
+    });
+    QList<Team*> selected = teamsCopy.mid(0, 12);
+    QStringList groupNames = {"Группа A", "Группа B", "Группа C", "Группа D"};
+    QMap<QString, QList<Team*>> groups;
+    for (int i = 0; i < selected.size(); i++) {
+        QString grp = groupNames[i % groupNames.size()];
+        groups[grp].append(selected[i]);
+    }
+    groupResults = groups;
+
+    return nullptr;
 }
