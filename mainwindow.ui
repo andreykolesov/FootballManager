@@ -13,6 +13,91 @@
   <property name="windowTitle">
    <string>Football Manager Simulation</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">
+QMainWindow {
+    background-color: #2E2E2E;
+    color: #E0E0E0;
+    font-family: Arial, sans-serif;
+}
+
+/* Оформление вкладок */
+QTabWidget::pane {
+    border: 1px solid #555;
+    background: #3E3E3E;
+    padding: 2px;
+}
+QTabBar::tab {
+    background: #444;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 4px;
+    border: 1px solid #555;
+    color: #E0E0E0;
+    text-align: left;
+}
+QTabBar::tab:selected {
+    background: #666;
+    font-weight: bold;
+}
+
+/* Оформление кнопок */
+QPushButton {
+    background-color: #5A5AFF;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    color: white;
+    font-size: 14px;
+}
+QPushButton:hover {
+    background-color: #7A7AFF;
+}
+
+/* Оформление комбобоксов */
+QComboBox {
+    padding: 6px;
+    border: 1px solid #777;
+    border-radius: 4px;
+    background: #444;
+    color: white;
+}
+
+/* Оформление списков */
+QListWidget {
+    background: #3E3E3E;
+    border: 1px solid #555;
+    border-radius: 4px;
+    color: white;
+}
+
+/* Оформление подписей */
+QLabel {
+    font-size: 16px;
+    color: white;
+}
+
+/* Оформление статусбара */
+QStatusBar {
+    background-color: #3E3E3E;
+    color: #E0E0E0;
+}
+
+/* Оформление диалогов, MessageBox */
+QDialog, QMessageBox {
+    background-color: #2E2E2E;
+    color: #E0E0E0;
+    font-family: Arial, sans-serif;
+}
+
+/* Общие подсказки */
+QToolTip {
+    background-color: #444;
+    color: #E0E0E0;
+    border: 1px solid #555;
+}
+   </string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayoutCentral">
     <item>
@@ -29,6 +114,19 @@
        </attribute>
        <layout class="QVBoxLayout" name="verticalLayoutTeams">
         <item>
+         <widget class="QPushButton" name="btnAddNewPlayer">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>1</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>Создать игрока</string>
+          </property>
+         </widget>
+        </item>
+        <item>
          <widget class="QComboBox" name="teamComboBox"/>
         </item>
         <item>
@@ -40,6 +138,14 @@
         </item>
         <item>
          <widget class="QListWidget" name="listWidgetTeamPlayers"/>
+        </item>
+        <!-- Добавленная кнопка для спонсорской поддержки -->
+        <item>
+         <widget class="QPushButton" name="sponsorButton">
+          <property name="text">
+           <string>Спонсорская поддержка</string>
+          </property>
+         </widget>
         </item>
        </layout>
       </widget>
