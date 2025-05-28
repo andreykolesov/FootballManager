@@ -26,6 +26,7 @@ public:
     ~LeagueManager();
 
     void addTeam(Team* team);
+    void addTeams(const QList<Team*>& teams);
     void generateSchedule();
     QString simulateNextMatch();
     bool allMatchesPlayed() const;
@@ -34,6 +35,9 @@ public:
     QMap<Team*, TournamentRecord> recalcStandings() const;
     Team* determineChampion() const;
     QList<Team*> getTeams() const;
+    void appendMatchResult(Match* match);
+    void markMatchPlayed();
+    void updateTournamentTables();
 };
 
 #endif

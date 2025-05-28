@@ -19,6 +19,12 @@ void LeagueManager::addTeam(Team* team) {
     m_standings[team] = TournamentRecord{0,0,0,0,0,0,0};
 }
 
+void LeagueManager::addTeams(const QList<Team*>& teams) {
+    for (Team* team : teams) {
+        addTeam(team);
+    }
+}
+
 QList<Team*> LeagueManager::getTeams() const {
     return m_teams;
 }
@@ -160,3 +166,47 @@ bool LeagueManager::allMatchesPlayed() const {
     return m_currentMatchIndex >= m_schedule.size();
 }
 
+void LeagueManager::appendMatchResult(Match* match) {
+    Team* homeTeam = match->getHomeTeam();
+    Team* awayTeam = match->getAwayTeam();
+
+    int scoreHome = match->getHomeScore();
+    int scoreAway = match->getAwayScore();
+
+    TournamentRecord recHome = m_standings.value(homeTeam);
+    TournamentRecord recAway = m_standings.value(awayTeam);
+
+    recHome.played++;
+    recAway.played++;
+    recHome.goalsFor += scoreHome;
+    recHome.goalsAgainst += scoreAway;
+    recAway.goalsFor += scoreAway;
+    recAway.goalsAgainst += scoreHome;
+
+    if(scoreHome > scoreAway) {
+        recHome.wins++;
+        recHome.points += 3;
+        recAway.losses++;
+    } else if(scoreHome < scoreAway) {
+        recAway.wins++;
+        recAway.points += 3;
+        recHome.losses++;
+    } else {
+        recHome.draws++;
+        recAway.draws++;
+        recHome.points += 1;
+        recAway.points += 1;
+    }
+
+    m_standings[homeTeam] = recHome;
+    m_standings[awayTeam] = recAway;
+
+    m_matchHistory.append(match);
+}
+
+void LeagueManager::markMatchPlayed() {
+    if (m_currentMatchIndex < m_schedule.size()) {
+        m_schedule[m_currentMatchIndex].played = true;
+        m_currentMatchIndex++;
+    }
+}

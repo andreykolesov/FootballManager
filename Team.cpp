@@ -45,7 +45,7 @@ QString Team::getTeamDetails() const {
            << "\nЗащита: " << getDefenseRating()
            << "\nБюджет: " << m_budget
            << "\nТренер: " << m_trainerAbility
-           << "\nТрофеи: " << m_trophies;
+           << "\nТрофеи: " << m_trophies.join(", ");
     return details;
 }
 
@@ -59,14 +59,15 @@ bool Team::decreaseBudget(int amount) {
 }
 
 void Team::awardTrophy(const QString &trophy) {
-    if(m_trophies.isEmpty())
-        m_trophies = trophy;
-    else
-        m_trophies += ", " + trophy;
+    if (!m_trophies.contains(trophy)) {
+        m_trophies.append(trophy);
+    }
 }
 
 void Team::resetTrophies() {
     m_trophies.clear();
 }
 
-QString Team::getTrophies() const { return m_trophies; }
+QString Team::getTrophies() const {
+    return m_trophies.join(", ");
+}

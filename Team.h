@@ -12,7 +12,7 @@ private:
     int m_trainerAbility;
     int m_budget;
     QList<Player*> m_players;
-    QString m_trophies;
+    QStringList m_trophies;
 public:
     Team(const QString &name, int mood, int trainerAbility, int budget);
 
@@ -33,8 +33,8 @@ public:
     void increaseBudget(int amount);
     bool decreaseBudget(int amount);
 
-    void awardTrophy(const QString &trophy);
     QString getTrophies() const;
+    void awardTrophy(const QString &trophy);
 
     void resetTrophies();
 };
