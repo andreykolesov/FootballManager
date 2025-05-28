@@ -2,9 +2,9 @@
 #define TOURNAMENT_H
 
 #include "Team.h"
-#include "Match.h"
 #include <QString>
 #include <QList>
+#include <QMap>
 
 struct TournamentRecord {
     int played;
@@ -26,6 +26,7 @@ public:
     Team* simulateKnockoutTournament();
     QList<Team*> getTeams() const;
     static QMap<Team*, TournamentRecord> simulateLeagueSeason(const QList<Team*>& teams);
+    static Team* simulateKnockout(const QList<Team*>& teams);
 };
 
 #endif

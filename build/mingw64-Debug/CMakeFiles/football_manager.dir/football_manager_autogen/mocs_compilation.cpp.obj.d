@@ -422,7 +422,7 @@ CMakeFiles\football_manager.dir\football_manager_autogen\mocs_compilation.cpp.ob
  D:/qt/Tools/mingw_64_2/include/QtWidgets/qtablewidget.h \
  D:/qt/Tools/mingw_64_2/include/QtWidgets/qtableview.h \
  D:/qt\ projects/football_manager/Tournament.h \
- D:/qt\ projects/football_manager/Match.h \
  D:/qt\ projects/football_manager/League_Manager.h \
+ D:/qt\ projects/football_manager/Match.h \
  D:/qt\ projects/football_manager/Tournament_Manager.h \
  D:/qt\ projects/football_manager/Season_Manager.h

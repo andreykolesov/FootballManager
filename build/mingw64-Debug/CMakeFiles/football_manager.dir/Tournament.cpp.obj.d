@@ -328,9 +328,7 @@ CMakeFiles\football_manager.dir\Tournament.cpp.obj: \
  D:/qt/Tools/mingw_64_2/include/QtCore/QString \
  D:/qt/Tools/mingw_64_2/include/QtCore/QSet \
  D:/qt/Tools/mingw_64_2/include/QtCore/qset.h \
- D:\qt\ projects\football_manager\Match.h \
- D:/qt/Tools/mingw_64_2/include/QtCore/QStringList \
- D:/qt/Tools/mingw_64_2/include/QtCore/qstringlist.h \
+ D:/qt/Tools/mingw_64_2/include/QtCore/QMap \
  D:/qt/Tools/mingw_64_2/include/QtCore/QRandomGenerator \
  D:/qt/Tools/mingw_64_2/include/QtCore/qrandom.h \
  D:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/random \
@@ -340,4 +338,6 @@ CMakeFiles\football_manager.dir\Tournament.cpp.obj: \
  D:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/emmintrin.h \
  D:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xmmintrin.h \
  D:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mmintrin.h \
- D:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/random.tcc
+ D:/qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/random.tcc \
+ D:/qt/Tools/mingw_64_2/include/QtCore/QDebug \
+ D:/qt/Tools/mingw_64_2/include/QtCore/qdebug.h

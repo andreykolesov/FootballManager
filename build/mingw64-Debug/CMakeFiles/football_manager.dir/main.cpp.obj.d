@@ -411,10 +411,10 @@ CMakeFiles\football_manager.dir\main.cpp.obj: \
  D:/qt/Tools/mingw_64_2/include/QtCore/QSet \
  D:/qt/Tools/mingw_64_2/include/QtCore/qset.h \
  D:\qt\ projects\football_manager\Tournament.h \
+ D:\qt\ projects\football_manager\League_Manager.h \
  D:\qt\ projects\football_manager\Match.h \
  D:/qt/Tools/mingw_64_2/include/QtCore/QStringList \
  D:/qt/Tools/mingw_64_2/include/QtCore/qstringlist.h \
- D:\qt\ projects\football_manager\League_Manager.h \
  D:\qt\ projects\football_manager\Tournament_Manager.h \
  D:\qt\ projects\football_manager\Season_Manager.h \
  D:/qt/Tools/mingw_64_2/include/QtCore/QObject \
