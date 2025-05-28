@@ -32,9 +32,11 @@ public:
     QTabWidget *tabWidgetMain;
     QWidget *tabTeams;
     QVBoxLayout *verticalLayoutTeams;
+    QPushButton *btnAddNewPlayer;
     QComboBox *teamComboBox;
     QLabel *labelTeamDetails;
     QListWidget *listWidgetTeamPlayers;
+    QPushButton *sponsorButton;
     QWidget *tabMatches;
     QVBoxLayout *verticalLayoutMatches;
     QLabel *labelSchedule;
@@ -56,6 +58,91 @@ public:
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
         MainWindow->resize(900, 700);
+        MainWindow->setStyleSheet(QString::fromUtf8("\n"
+"QMainWindow {\n"
+"    background-color: #2E2E2E;\n"
+"    color: #E0E0E0;\n"
+"    font-family: Arial, sans-serif;\n"
+"}\n"
+"\n"
+"/* \320\236\321\204\320\276\321\200\320\274\320\273\320\265\320\275\320\270\320\265 \320\262\320\272\320\273\320\260\320\264\320\276\320\272 */\n"
+"QTabWidget::pane {\n"
+"    border: 1px solid #555;\n"
+"    background: #3E3E3E;\n"
+"    padding: 2px;\n"
+"}\n"
+"QTabBar::tab {\n"
+"    background: #444;\n"
+"    padding: 10px;\n"
+"    margin: 2px;\n"
+"    border-radius: 4px;\n"
+"    border: 1px solid #555;\n"
+"    color: #E0E0E0;\n"
+"    text-align: left;\n"
+"}\n"
+"QTabBar::tab:selected {\n"
+"    background: #666;\n"
+"    font-weight: bold;\n"
+"}\n"
+"\n"
+"/* \320\236\321\204\320\276\321\200\320\274\320\273\320\265\320\275\320\270\320\265 \320\272\320\275\320\276\320\277\320\276\320\272 */\n"
+"QPushButton {\n"
+"    background-color: #5A5AFF;\n"
+"    border: none;\n"
+"    padding: 8px 16px;\n"
+"    border-radius: 6px;\n"
+"    color: white;\n"
+"    font-size: 14px;\n"
+"}\n"
+"QPushButton:"
+                        "hover {\n"
+"    background-color: #7A7AFF;\n"
+"}\n"
+"\n"
+"/* \320\236\321\204\320\276\321\200\320\274\320\273\320\265\320\275\320\270\320\265 \320\272\320\276\320\274\320\261\320\276\320\261\320\276\320\272\321\201\320\276\320\262 */\n"
+"QComboBox {\n"
+"    padding: 6px;\n"
+"    border: 1px solid #777;\n"
+"    border-radius: 4px;\n"
+"    background: #444;\n"
+"    color: white;\n"
+"}\n"
+"\n"
+"/* \320\236\321\204\320\276\321\200\320\274\320\273\320\265\320\275\320\270\320\265 \321\201\320\277\320\270\321\201\320\272\320\276\320\262 */\n"
+"QListWidget {\n"
+"    background: #3E3E3E;\n"
+"    border: 1px solid #555;\n"
+"    border-radius: 4px;\n"
+"    color: white;\n"
+"}\n"
+"\n"
+"/* \320\236\321\204\320\276\321\200\320\274\320\273\320\265\320\275\320\270\320\265 \320\277\320\276\320\264\320\277\320\270\321\201\320\265\320\271 */\n"
+"QLabel {\n"
+"    font-size: 16px;\n"
+"    color: white;\n"
+"}\n"
+"\n"
+"/* \320\236\321\204\320\276\321\200\320\274\320\273\320\265\320\275\320\270\320\265 \321\201\321\202\320\260\321\202"
+                        "\321\203\321\201\320\261\320\260\321\200\320\260 */\n"
+"QStatusBar {\n"
+"    background-color: #3E3E3E;\n"
+"    color: #E0E0E0;\n"
+"}\n"
+"\n"
+"/* \320\236\321\204\320\276\321\200\320\274\320\273\320\265\320\275\320\270\320\265 \320\264\320\270\320\260\320\273\320\276\320\263\320\276\320\262, MessageBox */\n"
+"QDialog, QMessageBox {\n"
+"    background-color: #2E2E2E;\n"
+"    color: #E0E0E0;\n"
+"    font-family: Arial, sans-serif;\n"
+"}\n"
+"\n"
+"/* \320\236\320\261\321\211\320\270\320\265 \320\277\320\276\320\264\321\201\320\272\320\260\320\267\320\272\320\270 */\n"
+"QToolTip {\n"
+"    background-color: #444;\n"
+"    color: #E0E0E0;\n"
+"    border: 1px solid #555;\n"
+"}\n"
+"   "));
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         verticalLayoutCentral = new QVBoxLayout(centralwidget);
@@ -67,6 +154,16 @@ public:
         tabTeams->setObjectName("tabTeams");
         verticalLayoutTeams = new QVBoxLayout(tabTeams);
         verticalLayoutTeams->setObjectName("verticalLayoutTeams");
+        btnAddNewPlayer = new QPushButton(tabTeams);
+        btnAddNewPlayer->setObjectName("btnAddNewPlayer");
+        QSizePolicy sizePolicy(QSizePolicy::Expanding, QSizePolicy::Preferred);
+        sizePolicy.setHorizontalStretch(1);
+        sizePolicy.setVerticalStretch(0);
+        sizePolicy.setHeightForWidth(btnAddNewPlayer->sizePolicy().hasHeightForWidth());
+        btnAddNewPlayer->setSizePolicy(sizePolicy);
+
+        verticalLayoutTeams->addWidget(btnAddNewPlayer);
+
         teamComboBox = new QComboBox(tabTeams);
         teamComboBox->setObjectName("teamComboBox");
 
@@ -81,6 +178,11 @@ public:
         listWidgetTeamPlayers->setObjectName("listWidgetTeamPlayers");
 
         verticalLayoutTeams->addWidget(listWidgetTeamPlayers);
+
+        sponsorButton = new QPushButton(tabTeams);
+        sponsorButton->setObjectName("sponsorButton");
+
+        verticalLayoutTeams->addWidget(sponsorButton);
 
         tabWidgetMain->addTab(tabTeams, QString());
         tabMatches = new QWidget();
@@ -157,7 +259,9 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "Football Manager Simulation", nullptr));
+        btnAddNewPlayer->setText(QCoreApplication::translate("MainWindow", "\320\241\320\276\320\267\320\264\320\260\321\202\321\214 \320\270\320\263\321\200\320\276\320\272\320\260", nullptr));
         labelTeamDetails->setText(QCoreApplication::translate("MainWindow", "\320\224\320\265\321\202\320\260\320\273\320\270 \320\272\320\276\320\274\320\260\320\275\320\264\321\213 \320\261\321\203\320\264\321\203\321\202 \320\276\321\202\320\276\320\261\321\200\320\260\320\266\320\265\320\275\321\213 \320\267\320\264\320\265\321\201\321\214", nullptr));
+        sponsorButton->setText(QCoreApplication::translate("MainWindow", "\320\241\320\277\320\276\320\275\321\201\320\276\321\200\321\201\320\272\320\260\321\217 \320\277\320\276\320\264\320\264\320\265\321\200\320\266\320\272\320\260", nullptr));
         tabWidgetMain->setTabText(tabWidgetMain->indexOf(tabTeams), QCoreApplication::translate("MainWindow", "\320\232\320\276\320\274\320\260\320\275\320\264\321\213", nullptr));
         labelSchedule->setText(QCoreApplication::translate("MainWindow", "\320\241\320\273\320\265\320\264\321\203\321\216\321\211\320\270\320\271 \320\274\320\260\321\202\321\207:", nullptr));
         tabWidgetMain->setTabText(tabWidgetMain->indexOf(tabMatches), QCoreApplication::translate("MainWindow", "\320\234\320\260\321\202\321\207\320\270", nullptr));

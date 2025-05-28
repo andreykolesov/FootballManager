@@ -7,10 +7,9 @@
 
 class Player {
 private:
-    Player(const QString &name);
-
     QString m_name;
     int m_age;
+    QString m_position;
     int m_dribbling;
     int m_defense;
     int m_shot;
@@ -24,10 +23,15 @@ private:
     static QSet<QString> s_usedSignatures;
     static QString makeSignature(int dr, int def, int sh, int sp, int pa, int en, int ps, int cf);
 public:
-    static Player* create(const QString &name);
+    Player(const QString &name);
+
+    Player(const QString &name, int age, const QString &position,
+           int dribbling, int defense, int shot, int speed, int pass,
+           int endurance, int physicalStrength, int currentForm, int price);
 
     QString getName() const;
     int getAge() const;
+    QString getPosition() const;
     int getDribbling() const;
     int getDefense() const;
     int getShot() const;
@@ -38,6 +42,8 @@ public:
     int getCurrentForm() const;
     int getPrice() const;
 
+    void setAge(int age);
+    void setPosition(const QString &pos);
     void setDribbling(int value);
     void setDefense(int value);
     void setShot(int value);

@@ -3,10 +3,6 @@
 #include <QString>
 #include <QtGlobal>
 
-Match* Match::create(Team* homeTeam, Team* awayTeam) {
-    return new Match(homeTeam, awayTeam);
-}
-
 Match::Match(Team* homeTeam, Team* awayTeam)
     : m_homeTeam(homeTeam),
     m_awayTeam(awayTeam),
@@ -14,30 +10,41 @@ Match::Match(Team* homeTeam, Team* awayTeam)
     m_awayScore(0)
 {}
 
-QString Match::simulateStep(int currentMinute) {
-    QString eventStr;
-    int homeRating = m_homeTeam->getAttackRating() + m_homeTeam->getMood() + m_homeTeam->getTrainerAbility();
-    int awayRating = m_awayTeam->getDefenseRating() + m_awayTeam->getMood() + m_awayTeam->getTrainerAbility();
-    int randomVal = QRandomGenerator::global()->bounded(100);
+QString Match::simulateStep(int currentTick) {
+    QStringList events;
+    int baseThreshold = 90;
 
-    if(randomVal < 5) {
-        eventStr = QString("На %1-й минуте произошло несчастье.").arg(currentMinute);
-        m_events.append(eventStr);
-        return eventStr;
-    }
-
-    int threshold = (homeRating > awayRating) ? 65 : 75;
-    int chance = QRandomGenerator::global()->bounded(100);
-    if(chance > threshold) {
+    int homeAttack = m_homeTeam->getAttackRating() + m_homeTeam->getMood() + m_homeTeam->getTrainerAbility();
+    int awayDefense = m_awayTeam->getDefenseRating() + m_awayTeam->getMood() + m_awayTeam->getTrainerAbility();
+    int homeDiff = homeAttack - awayDefense;
+    int adjustedThresholdHome = qBound(85, baseThreshold - (homeDiff / 6), 98);
+    int chanceHome = QRandomGenerator::global()->bounded(100);
+    if(chanceHome > adjustedThresholdHome) {
         ++m_homeScore;
-        eventStr = QString("На %1-й минуте команда %2 забила гол.")
-                       .arg(currentMinute)
-                       .arg(m_homeTeam->getName());
-        m_events.append(eventStr);
-        return eventStr;
+        events << QString("Команда \"%1\" забила гол.").arg(m_homeTeam->getName());
     }
-    return "";
+
+    int awayAttack = m_awayTeam->getAttackRating() + m_awayTeam->getMood() + m_awayTeam->getTrainerAbility();
+    int homeDefense = m_homeTeam->getDefenseRating() + m_homeTeam->getMood() + m_homeTeam->getTrainerAbility();
+    int awayDiff = awayAttack - homeDefense;
+    int adjustedThresholdAway = qBound(85, baseThreshold - (awayDiff / 6), 98);
+    int chanceAway = QRandomGenerator::global()->bounded(100);
+    if(chanceAway > adjustedThresholdAway) {
+        ++m_awayScore;
+        events << QString("Команда \"%1\" забила гол.").arg(m_awayTeam->getName());
+    }
+
+    int extra = QRandomGenerator::global()->bounded(100);
+    if(extra < 5) {
+        events << "Фол! Желтая карточка.";
+    } else if(extra < 10) {
+        events << "Угловой удар.";
+    } else if(extra < 15) {
+        events << "Свободный удар.";
+    }
+    return events.join("\n");
 }
+
 
 Team* Match::getHomeTeam() const { return m_homeTeam; }
 Team* Match::getAwayTeam() const { return m_awayTeam; }

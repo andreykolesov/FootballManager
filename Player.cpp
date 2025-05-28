@@ -4,15 +4,11 @@
 
 QSet<QString> Player::s_usedSignatures;
 
-Player* Player::create(const QString &name)
-{
-    return new Player(name);
-}
-
 Player::Player(const QString &name)
     : m_name(name)
 {
     m_age = QRandomGenerator::global()->bounded(18, 41);
+    m_position = "Unknown";
     while (true) {
         int dr = QRandomGenerator::global()->bounded(60, 101);
         int def = QRandomGenerator::global()->bounded(60, 101);
@@ -41,6 +37,7 @@ Player::Player(const QString &name)
 
 QString Player::getName() const { return m_name; }
 int Player::getAge() const { return m_age; }
+QString Player::getPosition() const { return m_position; }
 int Player::getDribbling() const { return m_dribbling; }
 int Player::getDefense() const { return m_defense; }
 int Player::getShot() const { return m_shot; }
@@ -51,6 +48,8 @@ int Player::getPhysicalStrength() const { return m_physicalStrength; }
 int Player::getCurrentForm() const { return m_currentForm; }
 int Player::getPrice() const { return m_price; }
 
+void Player::setAge(int age) { m_age = age; }
+void Player::setPosition(const QString &pos) { m_position = pos; }
 void Player::setDribbling(int value) { m_dribbling = value; }
 void Player::setDefense(int value) { m_defense = value; }
 void Player::setShot(int value) { m_shot = value; }
@@ -86,6 +85,7 @@ QVariantMap Player::getStats() const {
     QVariantMap stats;
     stats["Имя"] = m_name;
     stats["Возраст"] = m_age;
+    stats["Позиция"] = m_position;
     stats["Дриблинг"] = m_dribbling;
     stats["Защита"] = m_defense;
     stats["Удар"] = m_shot;

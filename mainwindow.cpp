@@ -82,7 +82,7 @@ void MainWindow::loadInitialData() {
             for (int playerIdx = 1; playerIdx <= 11; ++playerIdx) {
                 QString playerName = QString("Player L%1T%2_%3")
                 .arg(league).arg(teamIdx).arg(playerIdx);
-                Player* player = Player::create(playerName);
+                Player* player = new Player(playerName);
                 team->addPlayer(player);
             }
             teams.append(team);
