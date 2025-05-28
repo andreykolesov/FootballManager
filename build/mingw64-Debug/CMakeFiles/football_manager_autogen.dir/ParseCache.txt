@@ -414,6 +414,7 @@ D:/qt projects/football_manager/Match.cpp
 D:/qt projects/football_manager/Training.h
 D:/qt projects/football_manager/Training.cpp
 D:/qt projects/football_manager/Tournament.h
+D:/qt projects/football_manager/Player_Create.cpp
 D:/qt projects/football_manager/Tournament.cpp
 D:/qt projects/football_manager/Tournament_Manager.h
 D:/qt projects/football_manager/Tournament_Manager.cpp
@@ -740,3 +741,4 @@ D:/qt projects/football_manager/Season_Manager.h
  mdp:D:/qt/Tools/mingw_64_2/include/QtCore/qversiontagging.h
  mdp:D:/qt/Tools/mingw_64_2/include/QtCore/qxptype_traits.h
 D:/qt projects/football_manager/Season_Manager.cpp
+D:/qt projects/football_manager/Player_Create.h

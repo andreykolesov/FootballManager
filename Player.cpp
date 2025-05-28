@@ -35,6 +35,17 @@ Player::Player(const QString &name)
     m_price = QRandomGenerator::global()->bounded(100, 301);
 }
 
+Player::Player(const QString &name, int age, const QString &position,
+               int dribbling, int defense, int shot, int speed, int pass,
+               int endurance, int physicalStrength, int currentForm, int price)
+    : m_name(name), m_age(age), m_position(position),
+    m_dribbling(dribbling), m_defense(defense), m_shot(shot),
+    m_speed(speed), m_pass(pass), m_endurance(endurance),
+    m_physicalStrength(physicalStrength), m_currentForm(currentForm),
+    m_price(price)
+{
+}
+
 QString Player::getName() const { return m_name; }
 int Player::getAge() const { return m_age; }
 QString Player::getPosition() const { return m_position; }

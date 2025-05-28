@@ -75,13 +75,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 77,
+				"line" : 80,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 60,
+				"line" : 63,
 				"parent" : 0
 			},
 			{
@@ -371,18 +371,20 @@
 				12,
 				14,
 				16,
-				18
+				18,
+				20,
+				22
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"id" : "football_manager_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "football_manager_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "football_manager_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "football_manager::@6890427a1f51a3e7e1df",
@@ -496,7 +498,9 @@
 				12,
 				14,
 				16,
-				18
+				18,
+				20,
+				22
 			]
 		},
 		{
@@ -512,7 +516,8 @@
 				15,
 				17,
 				19,
-				20
+				21,
+				23
 			]
 		},
 		{
@@ -526,14 +531,14 @@
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				21
+				24
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				22
+				25
 			]
 		}
 	],
@@ -649,6 +654,23 @@
 			"backtrace" : 4,
 			"path" : "Season_Manager.h",
 			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "Season_Manager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "Player_Create.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "Player_Create.cpp",
+			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
