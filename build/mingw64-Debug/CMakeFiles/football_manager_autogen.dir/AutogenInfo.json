@@ -283,6 +283,12 @@
 			null
 		],
 		[
+			"D:/qt projects/football_manager/Sponsor.h",
+			"MU",
+			"EWIEGA46WW/moc_Sponsor.cpp",
+			null
+		],
+		[
 			"D:/qt projects/football_manager/Team.h",
 			"MU",
 			"EWIEGA46WW/moc_Team.cpp",
@@ -388,6 +394,7 @@
 		[ "D:/qt projects/football_manager/Player.cpp", "MU", null ],
 		[ "D:/qt projects/football_manager/Player_Create.cpp", "MU", null ],
 		[ "D:/qt projects/football_manager/Season_Manager.cpp", "MU", null ],
+		[ "D:/qt projects/football_manager/Sponsor.cpp", "MU", null ],
 		[ "D:/qt projects/football_manager/Team.cpp", "MU", null ],
 		[ "D:/qt projects/football_manager/Tournament.cpp", "MU", null ],
 		[ "D:/qt projects/football_manager/Tournament_Manager.cpp", "MU", null ],

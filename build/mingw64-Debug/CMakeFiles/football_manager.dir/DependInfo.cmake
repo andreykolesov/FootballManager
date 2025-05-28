@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/qt projects/football_manager/Player.cpp" "CMakeFiles/football_manager.dir/Player.cpp.obj" "gcc" "CMakeFiles/football_manager.dir/Player.cpp.obj.d"
   "D:/qt projects/football_manager/Player_Create.cpp" "CMakeFiles/football_manager.dir/Player_Create.cpp.obj" "gcc" "CMakeFiles/football_manager.dir/Player_Create.cpp.obj.d"
   "D:/qt projects/football_manager/Season_Manager.cpp" "CMakeFiles/football_manager.dir/Season_Manager.cpp.obj" "gcc" "CMakeFiles/football_manager.dir/Season_Manager.cpp.obj.d"
+  "D:/qt projects/football_manager/Sponsor.cpp" "CMakeFiles/football_manager.dir/Sponsor.cpp.obj" "gcc" "CMakeFiles/football_manager.dir/Sponsor.cpp.obj.d"
   "D:/qt projects/football_manager/Team.cpp" "CMakeFiles/football_manager.dir/Team.cpp.obj" "gcc" "CMakeFiles/football_manager.dir/Team.cpp.obj.d"
   "D:/qt projects/football_manager/Tournament.cpp" "CMakeFiles/football_manager.dir/Tournament.cpp.obj" "gcc" "CMakeFiles/football_manager.dir/Tournament.cpp.obj.d"
   "D:/qt projects/football_manager/Tournament_Manager.cpp" "CMakeFiles/football_manager.dir/Tournament_Manager.cpp.obj" "gcc" "CMakeFiles/football_manager.dir/Tournament_Manager.cpp.obj.d"

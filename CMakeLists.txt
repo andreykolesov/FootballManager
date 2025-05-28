@@ -41,6 +41,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         Season_Manager.cpp
         Player_Create.h
         Player_Create.cpp
+        Sponsor.h
+        Sponsor.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET football_manager APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
